@@ -9,6 +9,7 @@
 *.dylib
 *.dll
 *.lib
+*.manifest
 
 # Compiled Static libraries
 *.lai
@@ -34,6 +35,9 @@ error.dmp
 *.sdf
 *.opensdf
 
+# Linker files
+*.ilk
+
 # Directories
 TestResults/
 statoscope/
@@ -51,6 +55,7 @@ comm/comm.txt
 
 # Config files
 editor.cfg
+*.cfg
 sysconfig.cfg
 
 luac.out
