@@ -18,7 +18,7 @@
 *.DS_STORE
 
 # Compiled executables
-*.exe
+#*.exe
 
 # log files
 *.log
