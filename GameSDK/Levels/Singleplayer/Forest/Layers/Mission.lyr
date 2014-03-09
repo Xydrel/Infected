@@ -1,0 +1,318 @@
+<ObjectLayer>
+ <Layer Name="Mission" GUID="{70902935-1CB8-485A-BE04-9A6A7FE18806}" FullName="Mission" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1" ID="0">
+  <LayerObjects>
+   <Object Type="Entity" Layer="Mission" Id="{E9F31715-0DF0-496F-8719-3DB37AE1A3FD}" Name="MissionObjective1" Pos="699.76172,350.02747,164.63823" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MissionObjective">
+    <Properties bIsPathHelper="0" mission_MissionID="Forest.Forest_Objective_01" bShowOnRadar="1" sTrackedEntityName=""/>
+    <FlowGraph Description="" Group="Mission" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="3" Class="entity:AreaTrigger" pos="-160,-160,0" flags="0" InHideMask="31" OutHideMask="127" EntityGUID="{D0AE3FB7-5397-4840-8518-AD3F62290FF8}" EntityGUID_64="48405397D0AE3FB7">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="7" Class="entity:MissionObjective" pos="1500,-220,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Activate="0" Completed="0" Deactivate="0" Failed="0" SilentActivate="0" SilentDeactivate="0"/>
+      </Node>
+      <Node Id="9" Class="Time:Delay" pos="340,-360,0" flags="0">
+       <Inputs delay="2" resetOnInput="0"/>
+      </Node>
+      <Node Id="11" Class="entity:MissionObjective" pos="1520,360,0" flags="0" EntityGUID="{438D3718-95C4-4D4D-9BFD-B43EBD54CC4D}" EntityGUID_64="4D4D95C4438D3718">
+       <Inputs entityId="0" Activate="0" Completed="0" Deactivate="0" Failed="0" SilentActivate="0" SilentDeactivate="0"/>
+      </Node>
+      <Node Id="13" Class="entity:AreaTrigger" pos="-160,380,0" flags="0" EntityGUID="{7AFA5F29-45E5-4C78-A92B-D2B20B7B97CB}" EntityGUID_64="4C7845E57AFA5F29">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="16" Class="entity:MissionObjective" pos="1520,1400,0" flags="0" EntityGUID="{29527A15-FDA0-4A65-83B4-D42DAF9D40FB}" EntityGUID_64="4A65FDA029527A15">
+       <Inputs entityId="0" Activate="0" Completed="0" Deactivate="0" Failed="0" SilentActivate="0" SilentDeactivate="0"/>
+      </Node>
+      <Node Id="19" Class="entity:SpeedBoat" pos="-160,1420,0" flags="0" EntityGUID="{713D7B29-1751-4348-B205-2089C3F4AD58}" EntityGUID_64="43481751713D7B29">
+       <Inputs entityId="0" Disable="0" DisableEngine="0" DisableMovement="0" Enable="0" EnableEngine="0" EnableMovement="0"/>
+      </Node>
+      <Node Id="20" Name="Mission_#1_:_Navigation_&amp;_Interaction" Class="_commentbox" pos="-200,-510.87207,0" flags="0">
+       <Inputs TextSize="1" Color="0.353741,0.618686,0.320382" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="2000" Height="520"/>
+       <NodeSize Width="2000" Height="593.04163"/>
+      </Node>
+      <Node Id="21" Name="Mission_#2_:_Navigation_&amp;_Optional_Side_Mission:_Item_Retrieval" Class="_commentbox" pos="-200,123.47882,0" flags="0">
+       <Inputs TextSize="1" Color="0.666117,0.666117,0.288816" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="2000" Height="410"/>
+       <NodeSize Width="2000" Height="483.04166"/>
+      </Node>
+      <Node Id="22" Name="Mission_#3_:_Destroy_Speedboat_vehicle" Class="_commentbox" pos="-200,1159.1307,0" flags="0">
+       <Inputs TextSize="1" Color="0.625345,0.315763,0.315763" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="2000" Height="450"/>
+       <NodeSize Width="2000" Height="523.04163"/>
+      </Node>
+      <Node Id="23" Name="Navigate_to_house_and_execute_sleeping_character" Class="_comment" pos="-160,-390,0" flags="0"/>
+      <Node Id="24" Name="Navigate_into_Cave,_interact_with_item,_navigate_to_destination_point" Class="_comment" pos="-160,250,0" flags="0"/>
+      <Node Id="25" Name="Destroy_the_boat_to_complete_this_mission" Class="_comment" pos="-160,1290,0" flags="0"/>
+      <Node Id="41" Class="Mission:GameTokenSet" pos="580,-360,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_01_Activated" Value="true"/>
+      </Node>
+      <Node Id="42" Class="Mission:GameTokenSet" pos="580,-160,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_01_Completed" Value="true"/>
+      </Node>
+      <Node Id="43" Class="Mission:GameTokenSet" pos="580,-40,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_01_Deactivated" Value="true"/>
+      </Node>
+      <Node Id="46" Class="Mission:GameToken" pos="-160,280,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_01_Deactivated" compare_Value="true"/>
+      </Node>
+      <Node Id="47" Class="Mission:GameTokenSet" pos="540,280,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02_Activated" Value="true"/>
+      </Node>
+      <Node Id="48" Class="Mission:GameTokenSet" pos="540,380,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02_Completed" Value="true"/>
+      </Node>
+      <Node Id="49" Class="Mission:GameTokenSet" pos="540,480,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02_Deactivated" Value="true"/>
+      </Node>
+      <Node Id="50" Class="Mission:GameToken" pos="1040,-100,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_01_Deactivated" compare_Value="true"/>
+      </Node>
+      <Node Id="51" Class="Mission:GameToken" pos="1040,280,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02_Activated" compare_Value="true"/>
+      </Node>
+      <Node Id="52" Class="Mission:GameTokenSet" pos="540,1420,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_03_Completed" Value="true"/>
+      </Node>
+      <Node Id="53" Class="Mission:GameToken" pos="1040,1420,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_03_Completed" compare_Value="true"/>
+      </Node>
+      <Node Id="54" Class="Mission:GameToken" pos="-160,1320,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02_Deactivated" compare_Value="true"/>
+      </Node>
+      <Node Id="55" Class="Mission:GameToken" pos="1040,-300,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_01_Activated" compare_Value="true"/>
+      </Node>
+      <Node Id="56" Class="Mission:GameToken" pos="1040,-200,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_01_Completed" compare_Value="true"/>
+      </Node>
+      <Node Id="57" Class="Time:Delay" pos="340,-40,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="58" Class="Time:Delay" pos="300,280,0" flags="0">
+       <Inputs delay="5" resetOnInput="0"/>
+      </Node>
+      <Node Id="59" Class="Mission:GameToken" pos="1040,380,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02_Completed" compare_Value="true"/>
+      </Node>
+      <Node Id="60" Class="Mission:GameToken" pos="1040,480,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02_Deactivated" compare_Value="true"/>
+      </Node>
+      <Node Id="61" Class="Time:Delay" pos="300,480,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="62" Class="Mission:GameTokenSet" pos="540,1320,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_03_Activated" Value="true"/>
+      </Node>
+      <Node Id="63" Class="Time:Delay" pos="300,1320,0" flags="0">
+       <Inputs delay="5" resetOnInput="0"/>
+      </Node>
+      <Node Id="64" Class="Mission:GameToken" pos="1040,1320,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_03_Activated" compare_Value="true"/>
+      </Node>
+      <Node Id="65" Class="Mission:GameToken" pos="1040,1520,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_03_Deactivated" compare_Value="true"/>
+      </Node>
+      <Node Id="66" Class="Mission:GameTokenSet" pos="540,1520,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_03_Deactivated" Value="true"/>
+      </Node>
+      <Node Id="67" Class="Time:Delay" pos="300,1520,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="68" Class="Game:Start" pos="-160,-360,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="70" Class="entity:AnimObject" pos="-160,-240,0" flags="0" InHideMask="8191" OutHideMask="4095" EntityGUID="{D3B5CBDE-26FB-4D02-9CBD-7DE12160DC0C}" EntityGUID_64="4D0226FBD3B5CBDE">
+       <Inputs entityId="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" ModelLoad="0" ModelUnload="0" Ragdollize="0" Remove="0" ResetAnimation="0" ResetHealth="0" StartAnimation="0" StopAnimation="0" UnHide="0"/>
+      </Node>
+      <Node Id="73" Class="Logic:AND" pos="340,-160,0" flags="0">
+       <Inputs A="0" B="0" Always="0"/>
+      </Node>
+      <Node Id="74" Class="Mission:GameToken" pos="-160,-40,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_01_Completed" compare_Value="true"/>
+      </Node>
+      <Node Id="76" Class="entity:AnimObject" pos="200,-240,0" flags="0" InHideMask="8191" OutHideMask="4095" EntityGUID="{D3B5CBDE-26FB-4D02-9CBD-7DE12160DC0C}" EntityGUID_64="4D0226FBD3B5CBDE">
+       <Inputs entityId="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" ModelLoad="0" ModelUnload="0" Ragdollize="0" Remove="0" ResetAnimation="0" ResetHealth="0" StartAnimation="0" StopAnimation="0" UnHide="0"/>
+      </Node>
+      <Node Id="77" Class="Time:Delay" pos="40,-240,0" flags="0" InHideMask="7" OutHideMask="1">
+       <Inputs delay="0.5" resetOnInput="0"/>
+      </Node>
+      <Node Id="78" Name="Ragdolize_body_after_hit" Class="_comment" pos="0,-270,0" flags="0"/>
+      <Node Id="79" Name="Check_both_conditions_are_met" Class="_comment" pos="340,-190,0" flags="0"/>
+      <Node Id="81" Class="entity:MissionObjective" pos="1680,880,0" flags="0" EntityGUID="{536F4EEE-EE43-4708-B40B-4B2C4139A6AD}" EntityGUID_64="4708EE43536F4EEE">
+       <Inputs entityId="0" Activate="0" Completed="0" Deactivate="0" Failed="0" SilentActivate="0" SilentDeactivate="0"/>
+      </Node>
+      <Node Id="83" Class="entity:BasicEntity" pos="300,900,0" flags="0" InHideMask="255" OutHideMask="4095" EntityGUID="{B119B871-8A10-4B54-9C17-7EB9AD9B3DD7}" EntityGUID_64="4B548A10B119B871">
+       <Inputs entityId="0" Hide="0" MakeInvulnerable="0" MakeVulnerable="0" Ragdollize="0" Remove="0" ResetHealth="0" UnHide="0"/>
+      </Node>
+      <Node Id="84" Class="Mission:GameTokenSet" pos="760,800,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02b_Activated" Value="true"/>
+      </Node>
+      <Node Id="85" Class="Mission:GameTokenSet" pos="760,900,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02b_Completed" Value="true"/>
+      </Node>
+      <Node Id="86" Class="Mission:GameTokenSet" pos="760,1000,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02b_Deactivated" Value="true"/>
+      </Node>
+      <Node Id="87" Class="Time:Delay" pos="520,800,0" flags="0">
+       <Inputs delay="6" resetOnInput="0"/>
+      </Node>
+      <Node Id="88" Class="Time:Delay" pos="520,1000,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="89" Class="Mission:GameToken" pos="-160,800,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_01_Deactivated" compare_Value="true"/>
+      </Node>
+      <Node Id="90" Class="Mission:GameToken" pos="1200,800,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02b_Activated" compare_Value="true"/>
+      </Node>
+      <Node Id="91" Class="Mission:GameToken" pos="1200,900,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02b_Completed" compare_Value="true"/>
+      </Node>
+      <Node Id="92" Class="Mission:GameToken" pos="1200,1000,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02b_Deactivated" compare_Value="true"/>
+      </Node>
+      <Node Id="93" Class="Mission:GameToken" pos="-160,900,0" flags="0">
+       <Inputs gametoken_Token="Level.Forest.Mission_02b_Completed" compare_Value="true"/>
+      </Node>
+      <Node Id="94" Name="Mission_#2b_:_Optional:_Item_Retrieval" Class="_commentbox" pos="-200,640,0" flags="0">
+       <Inputs TextSize="1" Color="0.505432,0.493616,0.404541" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="2160" Height="410"/>
+       <NodeSize Width="2160" Height="483.04166"/>
+      </Node>
+      <Node Id="97" Class="_commentbox" pos="1020,1260,0" flags="0">
+       <Inputs TextSize="1" Color="0.625345,0.315763,0.315763" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="760" Height="320"/>
+       <NodeSize Width="760" Height="356.52081"/>
+      </Node>
+      <Node Id="98" Class="_commentbox" pos="1180,750,0" flags="0">
+       <Inputs TextSize="1" Color="0.505432,0.493616,0.404541" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="760" Height="320"/>
+       <NodeSize Width="760" Height="347.39063"/>
+      </Node>
+      <Node Id="99" Class="_commentbox" pos="1020,230,0" flags="0">
+       <Inputs TextSize="1" Color="0.666117,0.666117,0.288816" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="760" Height="320"/>
+       <NodeSize Width="760" Height="347.39063"/>
+      </Node>
+      <Node Id="100" Class="_commentbox" pos="1020,-350,0" flags="0">
+       <Inputs TextSize="1" Color="0.353741,0.618686,0.320382" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="740" Height="320"/>
+       <NodeSize Width="740" Height="347.39063"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="73" nodeOut="3" portIn="B" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="41" nodeOut="9" portIn="Trigger" portOut="out" enabled="1"/>
+      <Edge nodeIn="48" nodeOut="13" portIn="Trigger" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="61" nodeOut="13" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="52" nodeOut="19" portIn="Trigger" portOut="Destroy" enabled="1"/>
+      <Edge nodeIn="67" nodeOut="19" portIn="in" portOut="Destroy" enabled="1"/>
+      <Edge nodeIn="58" nodeOut="46" portIn="in" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="7" nodeOut="50" portIn="Deactivate" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="51" portIn="Activate" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="53" portIn="Completed" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="63" nodeOut="54" portIn="in" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="7" nodeOut="55" portIn="Activate" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="7" nodeOut="56" portIn="Completed" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="43" nodeOut="57" portIn="Trigger" portOut="out" enabled="1"/>
+      <Edge nodeIn="47" nodeOut="58" portIn="Trigger" portOut="out" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="59" portIn="Completed" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="60" portIn="Deactivate" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="49" nodeOut="61" portIn="Trigger" portOut="out" enabled="1"/>
+      <Edge nodeIn="62" nodeOut="63" portIn="Trigger" portOut="out" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="64" portIn="Activate" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="65" portIn="Deactivate" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="66" nodeOut="67" portIn="Trigger" portOut="out" enabled="1"/>
+      <Edge nodeIn="9" nodeOut="68" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="73" nodeOut="70" portIn="A" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="77" nodeOut="70" portIn="in" portOut="Hit" enabled="1"/>
+      <Edge nodeIn="42" nodeOut="73" portIn="Trigger" portOut="true" enabled="1"/>
+      <Edge nodeIn="57" nodeOut="74" portIn="in" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="76" nodeOut="77" portIn="Ragdollize" portOut="out" enabled="1"/>
+      <Edge nodeIn="85" nodeOut="83" portIn="Trigger" portOut="Used" enabled="1"/>
+      <Edge nodeIn="88" nodeOut="83" portIn="in" portOut="Used" enabled="1"/>
+      <Edge nodeIn="84" nodeOut="87" portIn="Trigger" portOut="out" enabled="1"/>
+      <Edge nodeIn="86" nodeOut="88" portIn="Trigger" portOut="out" enabled="1"/>
+      <Edge nodeIn="87" nodeOut="89" portIn="in" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="81" nodeOut="90" portIn="Activate" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="81" nodeOut="91" portIn="Completed" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="81" nodeOut="92" portIn="Deactivate" portOut="Equal True" enabled="1"/>
+      <Edge nodeIn="83" nodeOut="93" portIn="Hide" portOut="Equal True" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="Mission" Id="{29527A15-FDA0-4A65-83B4-D42DAF9D40FB}" Name="MissionObjective3" Pos="432.75,495.75,143.875" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MissionObjective">
+    <Properties bIsPathHelper="0" mission_MissionID="Forest.Forest_Objective_03" bShowOnRadar="1" sTrackedEntityName="SpeedBoat1"/>
+   </Object>
+   <Object Type="Entity" Layer="Mission" Id="{438D3718-95C4-4D4D-9BFD-B43EBD54CC4D}" Name="MissionObjective2" Pos="501.5,522.375,148.25" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MissionObjective">
+    <Properties bIsPathHelper="0" mission_MissionID="Forest.Forest_Objective_02" bShowOnRadar="1" sTrackedEntityName=""/>
+   </Object>
+   <Object Type="Entity" Layer="Mission" Id="{7AFA5F29-45E5-4C78-A92B-D2B20B7B97CB}" Name="AreaTrigger2_Mission2" Pos="501.5,522.375,148.875" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="1" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="1">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Mission" Id="{B119B871-8A10-4B54-9C17-7EB9AD9B3DD7}" Name="Mission_CaveArtifact" Pos="686.25,411.125,166.875" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="BasicEntity">
+    <Properties bCanTriggerAreas="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/props/misc/cans/soda_can_a.cgf" bPickable="0" soclasses_SmartObjectClass="" bUsable="1" UseMessage="Take Artifact">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics Density="-1" Mass="50" bPhysicalize="1" bPushableByPlayers="1" bRigidBody="1">
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Shape" Layer="Mission" Id="{3B820BB4-4729-48D6-9A9B-43E157E2CD53}" Name="AreaShape_Mission1" Pos="698.66669,350.31775,164.08603" FloorNumber="-1" Rotate="0.9304176,0,0,-0.36650118" ColorRGB="12583040" Width="0" Height="3" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="1" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="0.058898926,1.1587524,0.038970947"/>
+     <Point Pos="1.1189575,1.1217041,0.038970947"/>
+     <Point Pos="1.068634,-0.070678711,0.038970947"/>
+    </Points>
+    <Entities>
+     <Entity Id="{D0AE3FB7-5397-4840-8518-AD3F62290FF8}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="Mission" Id="{D0AE3FB7-5397-4840-8518-AD3F62290FF8}" Name="AreaTrigger1_Mission1" Pos="699.62366,350.1496,165.52147" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="1" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="1">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Shape" Layer="Mission" Id="{5849FAC4-98A2-4560-A515-54BDB29568B1}" Name="AreaShape_Mission2" Pos="499.625,519.75,146.875" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="12583040" Width="0" Height="4" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="1" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="4.375,0,0"/>
+     <Point Pos="4.625,4.75,0"/>
+     <Point Pos="0.125,4.75,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{7AFA5F29-45E5-4C78-A92B-D2B20B7B97CB}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="Mission" Id="{D3B5CBDE-26FB-4D02-9CBD-7DE12160DC0C}" Name="SleepingBeauty" Pos="697.22949,349.79147,165.17523" FloorNumber="-1" Rotate="0.84804809,0,0,0.52991927" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="10" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AnimObject">
+    <Properties ActivatePhysicsDist="50" ActivatePhysicsThreshold="0" bCanTriggerAreas="0" DmgFactorWhenCollidingAI="1" bExcludeCover="0" esFaction="" bHeavyObject="0" bInteractLargeObject="0" bMissionCritical="0" object_Model="objects/characters/human/sdk_player/sdk_player.cdf" bNoFriendlyFire="0" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="">
+     <Animation bAlwaysUpdate="0" Animation="relaxed_tac_idlesleep_nw_3p_01" bLoop="1" bPhysicalizeAfterAnimation="0" playerAnimationState="" bPlaying="1" Speed="1"/>
+     <Cinematic bOnDemandModelLoad="0" bRenderAlways="0"/>
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <MultiplayerOptions bNetworked="0"/>
+     <Physics bArticulated="0" bBulletCollisionEnabled="1" Density="-1" Mass="100" bPhysicalize="1" bPushableByPlayers="0" bRigidBody="0">
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Mission" Id="{536F4EEE-EE43-4708-B40B-4B2C4139A6AD}" Name="MissionObjective2b_Side" Pos="686.125,411,167" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MissionObjective">
+    <Properties bIsPathHelper="0" mission_MissionID="Forest.Forest_Objective_02b" bShowOnRadar="1" sTrackedEntityName="Mission_CaveArtifact"/>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

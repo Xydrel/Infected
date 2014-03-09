@@ -1,0 +1,160 @@
+<ObjectLayer>
+ <Layer Name="AB1_Logic" GUID="{339BE7CA-D974-4BE6-A18E-17B2657B2C77}" FullName="AB1/AB1_Logic" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Color="8902791" ParentGUID="{0199749C-0578-445C-ABD7-CE0AE05C4169}">
+  <LayerObjects>
+   <Object Type="Entity" Layer="AB1_Logic" Id="{0118BF06-B27A-4A95-B8C5-0D63C86EEE0D}" Name="pfx_Pollen_trig01" Pos="862.86041,326.12802,175.66959" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Logic" Id="{C5BD6318-C539-45BE-AE22-10098B9052D5}" Name="WindArea3" Pos="865.43567,324.98877,174.6217" FloorNumber="-1" Rotate="0.087155774,0,0,0.99619472" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WindArea">
+    <Properties bActive="1" AirDensity="10" AirResistance="10" bEllipsoidal="1" FalloffInner="0" Speed="5">
+     <Dir x="1" y="0" z="0"/>
+     <Size x="7" y="7" z="7"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Logic" Id="{7ACEDB1B-7748-4EA0-8170-3816EF977224}" Name="WaterRipplesGenerator6" Pos="869.05426,345.9404,164.01578" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WaterRipplesGenerator">
+    <Properties bEnabled="1" fScale="1" fStrength="1">
+     <Randomization fRandomFreq="0" fRandomOffsetX="0" fRandomOffsetY="0" fRandomScale="0" fRandomStrength="0"/>
+     <Spawning bAutoSpawn="1" fFrequency="0.5" bSpawnOnMovement="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Logic" Id="{9FC4B744-E274-482E-9841-5E964DC7D40C}" Name="Waterfall_Screen_Effect_Trig_01" Pos="699.95886,320.71143,176.35965" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="1">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Shape" Layer="AB1_Logic" Id="{218EC84C-6BBE-47EE-B53D-D512AA68C580}" Name="Waterfall_Screen_Effect_Shape_01" Pos="720.17267,293.70529,158.49413" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="20" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="1.8" Agent_width="0.5" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="1.81073,21.547058,0"/>
+     <Point Pos="-20.293884,28.529877,0"/>
+     <Point Pos="-43.549866,18.858276,0"/>
+     <Point Pos="-46.594971,-2.2109985,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{9FC4B744-E274-482E-9841-5E964DC7D40C}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Logic" Id="{B6045E54-8F12-4F4D-A154-428B8FFE2369}" Name="WaterRipplesGenerator3" Pos="689.66431,310.42398,163.94499" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WaterRipplesGenerator">
+    <Properties bEnabled="1" fScale="5" fStrength="1">
+     <Randomization fRandomFreq="0" fRandomOffsetX="0" fRandomOffsetY="0" fRandomScale="1" fRandomStrength="1"/>
+     <Spawning bAutoSpawn="1" fFrequency="0.5" bSpawnOnMovement="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Logic" Id="{BFC6D85D-A303-4F66-A365-827BFDA601BC}" Name="WaterRipplesGenerator1" Pos="871.2262,348.61862,164.01578" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WaterRipplesGenerator">
+    <Properties bEnabled="1" fScale="1" fStrength="1">
+     <Randomization fRandomFreq="0" fRandomOffsetX="0" fRandomOffsetY="0" fRandomScale="0" fRandomStrength="0"/>
+     <Spawning bAutoSpawn="1" fFrequency="0.5" bSpawnOnMovement="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Shape" Layer="AB1_Logic" Id="{5276FFB0-8370-4A0F-A9B4-D452CF0FE2C5}" Name="pfx_Pollen_shape01" Pos="867.06299,312.6571,164.74001" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="50" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="12.803589,33.045013,-7.3996887"/>
+     <Point Pos="-35.781799,50.449615,-7.2700043"/>
+     <Point Pos="-68.290649,44.696625,-12.786346"/>
+     <Point Pos="-112.96698,46.119049,-11.214188"/>
+     <Point Pos="-135.70551,52.052734,-12.682785"/>
+     <Point Pos="-148.0733,54.565552,-14.005264"/>
+     <Point Pos="-162.73199,57.022949,-8.6895752"/>
+     <Point Pos="-173.10315,50.889587,-2.6364288"/>
+     <Point Pos="-186.62561,42.021912,-12.910065"/>
+     <Point Pos="-194.64954,37.683167,-12.24913"/>
+     <Point Pos="-213.67377,45.987091,-9.5674286"/>
+     <Point Pos="-231.62616,83.605743,-8.818512"/>
+     <Point Pos="-247.31293,114.69785,-21.509094"/>
+     <Point Pos="-270.47296,146.25705,-25.167908"/>
+     <Point Pos="-270.38806,185.13971,-28.155411"/>
+     <Point Pos="-272.13702,228.94235,-33.699081"/>
+     <Point Pos="-283.07733,226.65671,-32.432907"/>
+     <Point Pos="-294.60822,205.76559,-36.374435"/>
+     <Point Pos="-299.86517,169.00027,-37.466721"/>
+     <Point Pos="-302.26813,144.38412,-38.130722"/>
+     <Point Pos="-279.94391,119.30954,-38.625381"/>
+     <Point Pos="-265.1413,103.93112,-32.548447"/>
+     <Point Pos="-267.9632,88.25174,-36.802109"/>
+     <Point Pos="-264.98523,72.930786,-25.4617"/>
+     <Point Pos="-265.0274,54.02652,-28.262833"/>
+     <Point Pos="-277.19647,48.793427,-27.074966"/>
+     <Point Pos="-288.30896,52.466187,-28.436874"/>
+     <Point Pos="-293.93237,65.001465,-28.901016"/>
+     <Point Pos="-306.68567,64.678528,-30.40538"/>
+     <Point Pos="-309.07214,76.824524,-30.807144"/>
+     <Point Pos="-316.62848,81.554474,-32.311646"/>
+     <Point Pos="-324.02551,83.890686,-30.186996"/>
+     <Point Pos="-335.22089,80.650177,-19.309097"/>
+     <Point Pos="-340.59131,56.635559,-16.968491"/>
+     <Point Pos="-318.17926,26.51123,-7.2919769"/>
+     <Point Pos="-296.6391,7.1673889,3.6960907"/>
+     <Point Pos="-175.74957,-10.239105,15.524094"/>
+     <Point Pos="-119.12952,-2.4047241,-1.6295624"/>
+     <Point Pos="-32.405396,2.9111938,-5.0523224"/>
+    </Points>
+    <Entities>
+     <Entity Id="{0118BF06-B27A-4A95-B8C5-0D63C86EEE0D}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Side7="0" Side8="0" Side9="0" Side10="0" Side11="0" Side12="0" Side13="0" Side14="0" Side15="0" Side16="0" Side17="0" Side18="0" Side19="0" Side20="0" Side21="0" Side22="0" Side23="0" Side24="0" Side25="0" Side26="0" Side27="0" Side28="0" Side29="0" Side30="0" Side31="0" Side32="0" Side33="0" Side34="0" Side35="0" Side36="0" Side37="0" Side38="0" Side39="0" Side40="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Logic" Id="{126C1FD2-5051-41D5-8A5C-5EDDE07DB90A}" Name="WaterRipplesGenerator2" Pos="707.82806,314.12674,163.90292" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WaterRipplesGenerator">
+    <Properties bEnabled="1" fScale="5" fStrength="0.5">
+     <Randomization fRandomFreq="0" fRandomOffsetX="0" fRandomOffsetY="0" fRandomScale="1" fRandomStrength="1"/>
+     <Spawning bAutoSpawn="1" fFrequency="0.5" bSpawnOnMovement="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Logic" Id="{4CC986E6-5B28-46A9-A2E7-E60D4183F4BA}" Name="WaterRipplesGenerator5" Pos="694.9989,313.73682,163.94499" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WaterRipplesGenerator">
+    <Properties bEnabled="1" fScale="5" fStrength="1">
+     <Randomization fRandomFreq="0" fRandomOffsetX="0" fRandomOffsetY="0" fRandomScale="1" fRandomStrength="1"/>
+     <Spawning bAutoSpawn="1" fFrequency="0.5" bSpawnOnMovement="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB1_Logic" Id="{A7B31FFE-CF28-475C-B762-A6CD104A11CE}" Name="Time_Of_Day_And_Color_Charts" Pos="790.55188,348.24002,166.10912" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="1">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+    <FlowGraph Description="" Group="Lighting" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="10064" Class="entity:Light" pos="-3800,-230,0" flags="0" InHideMask="511" OutHideMask="1" EntityGUID="{5C2DFFD1-5419-49F0-AFE9-01EB2E989C58}" EntityGUID_64="49F054195C2DFFD1">
+       <Inputs entityId="0" Active="0" DiffuseColor="0,0,0" DiffuseMultiplier="0" Disable="0" Enable="0" HDRDynamic="0" Radius="0" SpecularMultiplier="0"/>
+      </Node>
+      <Node Id="10066" Class="Time:TimeOfDay" pos="-4370,-160,0" flags="0">
+       <Inputs Time="0" ForceUpdate="0" Speed="1"/>
+      </Node>
+      <Node Id="10067" Class="Math:InRange" pos="-4130,-160,0" flags="0">
+       <Inputs In="0" Min="6" Max="18"/>
+      </Node>
+      <Node Id="10068" Class="Game:Start" pos="-4530,-230,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="10070" Class="Time:Timer" pos="-4530,-160,0" flags="0">
+       <Inputs period="5" min="0" max="0" paused="0"/>
+      </Node>
+      <Node Id="10071" Name="Disable_Sun_flare_and_night_lights_layer_at_night" Class="_commentbox" pos="-4550,-280,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1020" Height="280"/>
+       <NodeSize Width="1020" Height="307.39063"/>
+      </Node>
+      <Node Id="10073" Class="Logic:Any" pos="-3940,-230,0" flags="0" InHideMask="63" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="10076" Class="Engine:LayerSwitch" pos="-3800,-110,0" flags="0">
+       <Inputs Layer="Night_lightsetup"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="10067" nodeOut="10066" portIn="In" portOut="CurTime" enabled="1"/>
+      <Edge nodeIn="10064" nodeOut="10067" portIn="Disable" portOut="false" enabled="1"/>
+      <Edge nodeIn="10073" nodeOut="10067" portIn="in2" portOut="true" enabled="1"/>
+      <Edge nodeIn="10076" nodeOut="10067" portIn="Unhide" portOut="false" enabled="1"/>
+      <Edge nodeIn="10073" nodeOut="10068" portIn="in1" portOut="output" enabled="1"/>
+      <Edge nodeIn="10066" nodeOut="10070" portIn="Get" portOut="out" enabled="1"/>
+      <Edge nodeIn="10064" nodeOut="10073" portIn="Active" portOut="out" enabled="1"/>
+      <Edge nodeIn="10064" nodeOut="10073" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="10076" nodeOut="10073" portIn="Hide" portOut="out" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

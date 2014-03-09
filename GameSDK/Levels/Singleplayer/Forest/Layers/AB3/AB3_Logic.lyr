@@ -1,0 +1,171 @@
+<ObjectLayer>
+ <Layer Name="AB3_Logic" GUID="{AEF81BA9-8BEC-4562-BCB4-5FBCE76A310F}" FullName="AB3/AB3_Logic" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Color="8772314" ParentGUID="{66B3B212-ED45-4A38-8A52-0DFC2D1DF46F}">
+  <LayerObjects>
+   <Object Type="Entity" Layer="AB3_Logic" Id="{E776F70D-4969-4251-8C80-548D2D0D93E5}" Name="Waterfall_Screen_Effect_Trig_03" Pos="589.35529,409.50806,158.21483" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="1">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Shape" Layer="AB3_Logic" Id="{73A88724-CB78-45DF-9D37-5F457C993B18}" Name="Speedboat_Speedtrap2" Pos="494,548,135" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="15" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="1" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-17,15,0"/>
+     <Point Pos="-27,4,0"/>
+     <Point Pos="-10,-11,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{B4DA07A8-EEF2-4B6F-8C43-266DE80A35F2}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="AB3_Logic" Id="{713D7B29-1751-4348-B205-2089C3F4AD58}" Name="SpeedBoat1" Pos="523.875,487.5,141.5" FloorNumber="-1" Rotate="0.43837127,0,0,0.898794" Scale="1.0699999,1.0699999,1.0700001" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SpeedBoat">
+    <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" bCanUsePrimaryWeapon="0" bCanUseSecondaryWeapon="0" aicharacter_character="Boat" commrange="100" bDisableEngine="0" esFaction="" bFactionHostility="1" followDistance="5" bFrozen="0" FrozenModel="" bHeavyObject="0" bInteractLargeObject="0" leaderName="" Modification="" esNavigationType="VehicleMedium" Paint="" bProvideAICover="1" soclasses_SmartObjectClass="" bSyncPhysics="1" teamName="">
+     <AIPressureAOE bFriendlyEnable="0" friendlyPressureDec="0" friendlyRadius="0" bHostileEnable="0" hostilePressureInc="0" hostileRadius="0"/>
+     <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+    <Properties2 bAutoDisable="1" aibehavior_behaviour="BoatIdle" bCircularPath="0" FormationType="" groupid="173" PathName="" bProvideAICover="1"/>
+   </Object>
+   <Object Type="Entity" Layer="AB3_Logic" Id="{699D4931-6343-4BED-A526-AF67A768D6F5}" Name="SpeedboatDriver" Pos="524.25,484,142.625" FloorNumber="-1" Rotate="0.9238795,0,0,0.38268346" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="1" EntityClass="Human">
+    <Properties AnimPack="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" aicharacter_character="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="Player_Default" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Advanced_Grunt" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" rank="4" reaction="1" soclasses_SmartObjectClass="Human, Actor" SoundPack="" SoundPackAlternative="" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI sndDeathSound="" bPlayDeathSound="0" bUseRadioChatter="0"/>
+     <AIBehaviorFlags bGrenadier="0" bSniper="0"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <Perception audioScale="1" camoScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" heatScale="1" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightEnvScaleAlarmed="1" sightEnvScaleNormal="0.2" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3" bThermalVision="0" velBase="1" velScale="0.03">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="0" esGrabType="" bStealthKill="0"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Shape" Layer="AB3_Logic" Id="{E91ED863-4629-4DCB-AF10-C3822D249D06}" Name="Speedboat_Speedtrap1" Pos="474,583,135.10001" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="15" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="1" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-24,22,-0.1000061"/>
+     <Point Pos="-34,11,0"/>
+     <Point Pos="-10,-11,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{343B94D6-FF65-4C06-B2A6-D4E6E0401F1B}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="AB3_Logic" Id="{59A3739F-1B69-492F-9038-CEA69BC7E3FB}" Name="Lighthouse_LightSound" Pos="391.93945,399.51495,176.35619" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="SoundEventSpot">
+    <Properties bEnabled="1" bIgnoreCulling="0" bIgnoreObstruction="0" nMaxWaitTime="5" nMinWaitTime="2" soundName="Sounds/physics:objects/fridge:run_loop" bOnce="0" bPlay="1" bPlayOnX="1" bPlayOnY="1" bPlayOnZ="1" bPlayRandom="0" nRadius="10"/>
+   </Object>
+   <Object Type="Entity" Layer="AB3_Logic" Id="{AB6A13AC-4B95-4914-AE00-443E6D080963}" Name="Speedboat_Loop" Pos="523.875,483.5,142.625" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="FlowgraphEntity">
+    <FlowGraph Description="" Group="AI" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="1" Class="Entity:EntityId" pos="-80,50,0" flags="0" EntityGUID="{713D7B29-1751-4348-B205-2089C3F4AD58}" EntityGUID_64="43481751713D7B29">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="2" Class="Vehicle:Enter" pos="-80,-100,0" flags="0" EntityGUID="{699D4931-6343-4BED-A526-AF67A768D6F5}" EntityGUID_64="4BED6343699D4931">
+       <Inputs entityId="0" VehicleId="0" SeatNumber="1" Fast="1" Force="0"/>
+      </Node>
+      <Node Id="3" Class="Game:Start" pos="-300,-130,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="4" Class="Vehicle:FollowPath" pos="160,-180,0" flags="0" EntityGUID="{713D7B29-1751-4348-B205-2089C3F4AD58}" EntityGUID_64="43481751713D7B29">
+       <Inputs entityId="0" PathFindToStart="0" Reverse="0" StartNearest="0" Loops="0" path_name="AIPath_SpeedboatInitial" Speed="10" Force="0"/>
+      </Node>
+      <Node Id="5" Class="Time:Delay" pos="-80,-180,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="6" Class="Vehicle:FollowPath" pos="650,-50,0" flags="0" EntityGUID="{713D7B29-1751-4348-B205-2089C3F4AD58}" EntityGUID_64="43481751713D7B29">
+       <Inputs entityId="0" PathFindToStart="0" Reverse="0" StartNearest="0" Loops="-1" path_name="AIPath_SpeedboatLoop" Speed="15" Force="0"/>
+      </Node>
+      <Node Id="8" Class="entity:AreaTrigger" pos="-300,210,0" flags="0" EntityGUID="{343B94D6-FF65-4C06-B2A6-D4E6E0401F1B}" EntityGUID_64="4C06FF65343B94D6">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="10" Class="entity:AreaTrigger" pos="-300,430,0" flags="0" EntityGUID="{B4DA07A8-EEF2-4B6F-8C43-266DE80A35F2}" EntityGUID_64="4B6FEEF2B4DA07A8">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="11" Class="Logic:Any" pos="390,210,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="12" Class="Math:SetNumber" pos="220,210,0" flags="0">
+       <Inputs in="7.5"/>
+      </Node>
+      <Node Id="13" Class="Math:SetNumber" pos="220,370,0" flags="0">
+       <Inputs in="15"/>
+      </Node>
+      <Node Id="14" Class="Game:Start" pos="-300,370,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="15" Class="Logic:Any" pos="80,370,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="16" Name="AI_Enter_vehicle_then_nav_Initial_path" Class="_commentbox" pos="-340,-250,0" flags="0">
+       <Inputs TextSize="1" Color="0.334458,0.659224,0.293216" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="860" Height="360"/>
+       <NodeSize Width="860" Height="387.39063"/>
+      </Node>
+      <Node Id="17" Name="Speed_traps_to_slow_boat_for_tight_corners" Class="_commentbox" pos="-340,149.99997,0" flags="0">
+       <Inputs TextSize="1" Color="0.74453,0.242796,0.242796" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="860" Height="440"/>
+       <NodeSize Width="860" Height="467.39063"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="2" nodeOut="1" portIn="VehicleId" portOut="Id" enabled="1"/>
+      <Edge nodeIn="2" nodeOut="3" portIn="sink" portOut="output" enabled="1"/>
+      <Edge nodeIn="5" nodeOut="3" portIn="in" portOut="output" enabled="1"/>
+      <Edge nodeIn="6" nodeOut="4" portIn="sink" portOut="done" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="5" portIn="sink" portOut="out" enabled="1"/>
+      <Edge nodeIn="12" nodeOut="8" portIn="set" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="15" nodeOut="10" portIn="in2" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="6" nodeOut="11" portIn="Speed" portOut="out" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="12" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="13" portIn="in10" portOut="out" enabled="1"/>
+      <Edge nodeIn="15" nodeOut="14" portIn="in1" portOut="output" enabled="1"/>
+      <Edge nodeIn="13" nodeOut="15" portIn="set" portOut="out" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="Shape" Layer="AB3_Logic" Id="{3704FAD6-BEA8-4FB5-A485-A4893AC20BC6}" Name="Waterfall_Screen_Effect_Shape_3" Pos="599.71729,386.36325,138.70651" FloorNumber="-1" Rotate="0.96126169,0,0,-0.27563736" ColorRGB="16763904" Width="0" Height="15" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="1.8" Agent_width="0.5" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-5.3271179,7.4006958,0.0016784668"/>
+     <Point Pos="-13.037659,14.877686,0"/>
+     <Point Pos="-18.77771,13.085205,-0.011962891"/>
+     <Point Pos="-18.402924,7.0223999,0"/>
+     <Point Pos="-14.259796,3.7651978,9.1552734e-005"/>
+     <Point Pos="-7.8385315,-5.7081299,0.017501831"/>
+    </Points>
+    <Entities>
+     <Entity Id="{E776F70D-4969-4251-8C80-548D2D0D93E5}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Side7="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Entity" Layer="AB3_Logic" Id="{79DEC0D9-455D-4CA1-A096-4CF5FCA27B82}" Name="WaterRipplesGenerator4" Pos="595.61218,365.21649,153.11473" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="WaterRipplesGenerator">
+    <Properties bEnabled="1" fScale="5" fStrength="1">
+     <Randomization fRandomFreq="0" fRandomOffsetX="0" fRandomOffsetY="0" fRandomScale="0" fRandomStrength="0"/>
+     <Spawning bAutoSpawn="1" fFrequency="0.5" bSpawnOnMovement="1"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

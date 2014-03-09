@@ -1,0 +1,86 @@
+<ObjectLayer>
+ <Layer Name="AB3_High_Spec" GUID="{7F602AD3-2290-4F0F-AE32-B676E757388A}" FullName="AB3/AB3_High_Spec" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Color="8772314" ParentGUID="{66B3B212-ED45-4A38-8A52-0DFC2D1DF46F}">
+  <LayerObjects>
+   <Object Type="Entity" Layer="AB3_High_Spec" Id="{E6061116-5042-4A82-8749-1221BB8D95CE}" Name="BreakableObject6" Pos="470.52274,420.38339,146.20245" FloorNumber="-1" Rotate="0.73727739,-0,0,-0.67559022" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="BreakableObject">
+    <Properties nBreakableType="0" fDensity="5000" esFaction="" fMass="-1" objModel="objects/architecture/fences/breakable_fence/wooden_fence4m.cgf" bPickable="0" bResting="0" bRigidBody="0" bUsable="0" UseMessage="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <PhysicsBreakable crack_weaken="0.5" max_bend_torque="0.01" max_pull_force="0.01" max_push_force="0.01" max_shift_force="0.01" max_twist_torque="0.01">
+      <GroundPlanes negativeX="0" negativeY="0" negativeZ="0" positiveX="0" positiveY="0" positiveZ="0.05"/>
+     </PhysicsBreakable>
+     <PhysicsBuoyancy water_damping="1.5" water_density="1" water_resistance="0"/>
+     <PhysicsSimulation damping="0" max_time_step="0.01" sleep_speed="0.04"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB3_High_Spec" Id="{D235245A-A908-42E0-9526-3612348F7B73}" Name="BreakableObject1" Pos="481.10153,418.24561,146.20245" FloorNumber="-1" Rotate="0.49999994,0,0,0.86602545" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="BreakableObject">
+    <Properties nBreakableType="0" fDensity="5000" esFaction="" fMass="-1" objModel="Objects/architecture/fences/breakable_fence/wooden_fence8m.cgf" bPickable="0" bResting="0" bRigidBody="0" bUsable="0" UseMessage="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <PhysicsBreakable crack_weaken="0.5" max_bend_torque="0.01" max_pull_force="0.01" max_push_force="0.01" max_shift_force="0.01" max_twist_torque="0.01">
+      <GroundPlanes negativeX="0" negativeY="0" negativeZ="0" positiveX="0" positiveY="0" positiveZ="0.05"/>
+     </PhysicsBreakable>
+     <PhysicsBuoyancy water_damping="1.5" water_density="1" water_resistance="0"/>
+     <PhysicsSimulation damping="0" max_time_step="0.01" sleep_speed="0.04"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB3_High_Spec" Id="{C40DEF67-9E53-46AD-96BC-51D44FF68A91}" Name="BreakableObject4" Pos="468.00726,414.996,146.20245" FloorNumber="-1" Rotate="0.64278758,0,0,-0.76604444" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="BreakableObject">
+    <Properties nBreakableType="0" fDensity="5000" esFaction="" fMass="-1" objModel="objects/architecture/fences/breakable_fence/wooden_fence4m.cgf" bPickable="0" bResting="0" bRigidBody="0" bUsable="0" UseMessage="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <PhysicsBreakable crack_weaken="0.5" max_bend_torque="0.01" max_pull_force="0.01" max_push_force="0.01" max_shift_force="0.01" max_twist_torque="0.01">
+      <GroundPlanes negativeX="0" negativeY="0" negativeZ="0" positiveX="0" positiveY="0" positiveZ="0.05"/>
+     </PhysicsBreakable>
+     <PhysicsBuoyancy water_damping="1.5" water_density="1" water_resistance="0"/>
+     <PhysicsSimulation damping="0" max_time_step="0.01" sleep_speed="0.04"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB3_High_Spec" Id="{7A5C1E78-7748-480C-81BB-00FD132C392A}" Name="BreakableObject3" Pos="471.92001,414.80814,146.20245" FloorNumber="-1" Rotate="0.73727739,-0,0,-0.67559022" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="BreakableObject">
+    <Properties nBreakableType="0" fDensity="5000" esFaction="" fMass="-1" objModel="objects/architecture/fences/breakable_fence/wooden_fence4m.cgf" bPickable="0" bResting="0" bRigidBody="0" bUsable="0" UseMessage="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <PhysicsBreakable crack_weaken="0.5" max_bend_torque="0.01" max_pull_force="0.01" max_push_force="0.01" max_shift_force="0.01" max_twist_torque="0.01">
+      <GroundPlanes negativeX="0" negativeY="0" negativeZ="0" positiveX="0" positiveY="0" positiveZ="0.05"/>
+     </PhysicsBreakable>
+     <PhysicsBuoyancy water_damping="1.5" water_density="1" water_resistance="0"/>
+     <PhysicsSimulation damping="0" max_time_step="0.01" sleep_speed="0.04"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB3_High_Spec" Id="{6AE126AF-6CF8-4364-BB1C-7CF593EB0BBD}" Name="BreakableObject2" Pos="476.66266,414.47134,146.20245" FloorNumber="-1" Rotate="0.25881901,0,0,0.96592581" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="BreakableObject">
+    <Properties nBreakableType="0" fDensity="5000" esFaction="" fMass="-1" objModel="objects/architecture/fences/breakable_fence/wooden_fence4m.cgf" bPickable="0" bResting="0" bRigidBody="0" bUsable="0" UseMessage="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <PhysicsBreakable crack_weaken="0.5" max_bend_torque="0.01" max_pull_force="0.01" max_push_force="0.01" max_shift_force="0.01" max_twist_torque="0.01">
+      <GroundPlanes negativeX="0" negativeY="0" negativeZ="0" positiveX="0" positiveY="0" positiveZ="0.05"/>
+     </PhysicsBreakable>
+     <PhysicsBuoyancy water_damping="1.5" water_density="1" water_resistance="0"/>
+     <PhysicsSimulation damping="0" max_time_step="0.01" sleep_speed="0.04"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB3_High_Spec" Id="{6F0DFCB4-A47B-473F-9C38-EB68E6C788E9}" Name="BreakableObject7" Pos="474.32159,421.41495,146.20245" FloorNumber="-1" Rotate="0.84339136,0,0,-0.53729975" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="BreakableObject">
+    <Properties nBreakableType="0" fDensity="5000" esFaction="" fMass="-1" objModel="objects/architecture/fences/breakable_fence/wooden_fence4m.cgf" bPickable="0" bResting="0" bRigidBody="0" bUsable="0" UseMessage="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <PhysicsBreakable crack_weaken="0.5" max_bend_torque="0.01" max_pull_force="0.01" max_push_force="0.01" max_shift_force="0.01" max_twist_torque="0.01">
+      <GroundPlanes negativeX="0" negativeY="0" negativeZ="0" positiveX="0" positiveY="0" positiveZ="0.05"/>
+     </PhysicsBreakable>
+     <PhysicsBuoyancy water_damping="1.5" water_density="1" water_resistance="0"/>
+     <PhysicsSimulation damping="0" max_time_step="0.01" sleep_speed="0.04"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB3_High_Spec" Id="{88FECCE3-3CCB-4FD3-B81D-EB4C2E12B7BA}" Name="BreakableObject5" Pos="466.60999,420.57126,146.20245" FloorNumber="-1" Rotate="0.64278758,0,0,-0.76604444" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="BreakableObject">
+    <Properties nBreakableType="0" fDensity="5000" esFaction="" fMass="-1" objModel="objects/architecture/fences/breakable_fence/wooden_fence4m.cgf" bPickable="0" bResting="0" bRigidBody="0" bUsable="0" UseMessage="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <PhysicsBreakable crack_weaken="0.5" max_bend_torque="0.01" max_pull_force="0.01" max_push_force="0.01" max_shift_force="0.01" max_twist_torque="0.01">
+      <GroundPlanes negativeX="0" negativeY="0" negativeZ="0" positiveX="0" positiveY="0" positiveZ="0.05"/>
+     </PhysicsBreakable>
+     <PhysicsBuoyancy water_damping="1.5" water_density="1" water_resistance="0"/>
+     <PhysicsSimulation damping="0" max_time_step="0.01" sleep_speed="0.04"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="AB3_High_Spec" Id="{EA27DAFD-8531-47DC-829C-1B09EADBBB51}" Name="BreakableObject8" Pos="479.59113,424.26779,146.20245" FloorNumber="-1" Rotate="0.86162919,-0,0,-0.50753832" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="BreakableObject">
+    <Properties nBreakableType="0" fDensity="5000" esFaction="" fMass="-1" objModel="Objects/architecture/fences/breakable_fence/wooden_fence8m.cgf" bPickable="0" bResting="0" bRigidBody="0" bUsable="0" UseMessage="">
+     <Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <PhysicsBreakable crack_weaken="0.5" max_bend_torque="0.01" max_pull_force="0.01" max_push_force="0.01" max_shift_force="0.01" max_twist_torque="0.01">
+      <GroundPlanes negativeX="0" negativeY="0" negativeZ="0" positiveX="0" positiveY="0" positiveZ="0.05"/>
+     </PhysicsBreakable>
+     <PhysicsBuoyancy water_damping="1.5" water_density="1" water_resistance="0"/>
+     <PhysicsSimulation damping="0" max_time_step="0.01" sleep_speed="0.04"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

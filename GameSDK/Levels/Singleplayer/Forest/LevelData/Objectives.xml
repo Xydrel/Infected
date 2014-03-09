@@ -1,0 +1,8 @@
+<Root>
+  <Forest>
+    <Forest_Objective_01  Name="Find the House, Kill the Occupant" Description="Reach the house outside the nearby waterfall. Enter the house. Kill the sleeping occupant." />
+    <Forest_Objective_02  Name="Reach the Shore" Description="Head towards the ocean. Intel suggests enemy can be found in the area." />
+    <Forest_Objective_02b Name="Steal the Cave Artifact" Description="Find and steal the artifact inside the Cave." Secondary="true" />
+    <Forest_Objective_03  Name="Stop the Boat" Description="Kill the enemy character by destroying his boat as he loops around the shore area." />
+  </Forest>
+</Root>

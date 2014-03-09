@@ -1,0 +1,12 @@
+<ObjectLayer>
+ <Layer Name="AB1" GUID="{0199749C-0578-445C-ABD7-CE0AE05C4169}" FullName="AB1" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="1" IsDefaultColor="0" ID="0" Color="8902791">
+  <LayerObjects />
+  <ChildLayers>
+   <Layer Name="AB1_Art" GUID="{EA699736-CE3C-4FF4-BAF6-F65CB7E80251}" FullName="AB1/AB1_Art" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Color="8902791" ParentGUID="{0199749C-0578-445C-ABD7-CE0AE05C4169}"/>
+   <Layer Name="AB1_Particles" GUID="{B7F31F79-08D1-4EFC-8C1D-9A5F7C1D0449}" FullName="AB1/AB1_Particles" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Color="8902791" ParentGUID="{0199749C-0578-445C-ABD7-CE0AE05C4169}"/>
+   <Layer Name="AB1_Navigation" GUID="{14F40CAF-DA27-4C4C-BD03-4AF5A23A169D}" FullName="AB1/AB1_Navigation" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Color="8902791" ParentGUID="{0199749C-0578-445C-ABD7-CE0AE05C4169}"/>
+   <Layer Name="AB1_Logic" GUID="{339BE7CA-D974-4BE6-A18E-17B2657B2C77}" FullName="AB1/AB1_Logic" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Color="8902791" ParentGUID="{0199749C-0578-445C-ABD7-CE0AE05C4169}"/>
+   <Layer Name="AB1_High_Spec" GUID="{CA15AECF-FA0B-4F42-BD35-C0D30FCE2910}" FullName="AB1/AB1_High_Spec" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="1" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Specs="1" Color="8902791" ParentGUID="{0199749C-0578-445C-ABD7-CE0AE05C4169}"/>
+  </ChildLayers>
+ </Layer>
+</ObjectLayer>

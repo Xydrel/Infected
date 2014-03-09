@@ -1,0 +1,7 @@
+<download name="Forest" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="Forest.xml" dest="Forest.xml" size="427" md5="aa2089c2a0e3348dce39a69fa5e7cb76"/>
+  <file src="level.pak" dest="level.pak" size="6639472" md5="eb2fabeaf8b63c343269acfc19715507"/>
+ </files>
+</download>

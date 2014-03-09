@@ -1,0 +1,212 @@
+<ObjectLayer>
+ <Layer Name="Music" GUID="{ED38AF45-92CD-4FCE-845A-568D2AED3944}" FullName="Music" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Color="6965523">
+  <LayerObjects>
+   <Object Type="Shape" Layer="Music" Id="{471EE203-3392-455F-B5CB-5696D8854811}" Name="AS_forest_music_shape" Pos="643.5,401.5,124.625" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="100" AreaId="0" GroupId="2" Priority="10" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="12.125,-25.25,0"/>
+     <Point Pos="61.5,-28,0"/>
+     <Point Pos="76,-25.375,0"/>
+     <Point Pos="226.5,-27,0"/>
+     <Point Pos="242.75,-51.5,0"/>
+     <Point Pos="219.5,-112.75,0"/>
+     <Point Pos="119.5,-168,0"/>
+     <Point Pos="-53.875,-122,0"/>
+     <Point Pos="-117.625,-34,0"/>
+     <Point Pos="-67.625,-21.625,0"/>
+     <Point Pos="-23.5,46.625,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{CDA89E75-AEC9-4641-82BF-EB0576E4995E}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Side7="0" Side8="0" Side9="0" Side10="0" Side11="0" Side12="0" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="Shape" Layer="Music" Id="{9BE2920F-9274-4B72-8369-8167A3AC3ABA}" Name="AS_cave_music_shape" Pos="650.875,389.875,160" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="20" AreaId="0" GroupId="2" Priority="20" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-4.875,11.75,0"/>
+     <Point Pos="13.75,52.5,0"/>
+     <Point Pos="78.375,51.375,0"/>
+     <Point Pos="68.5,-9,0"/>
+     <Point Pos="57,-12.5,0"/>
+    </Points>
+    <Entities>
+     <Entity Id="{CA235B33-F227-4BE7-8D7D-06128E4DB7CD}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Music" Id="{A568B923-ACB3-4184-B651-33D1E44262D4}" Name="AT_music_coast" Pos="571.875,393.25,160.375" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{47370C33-B024-4A13-87CD-8B9E56911DBF}" Name="MTS_03_first_tutorial_100" Pos="862.89282,347.67856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme=""/>
+   </Object>
+   <Object Type="Entity" Layer="Music" Id="{CA235B33-F227-4BE7-8D7D-06128E4DB7CD}" Name="AT_music_cave" Pos="707,389.5,168.5" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Shape" Layer="Music" Id="{70DC3838-4DC9-4562-8D9F-2A195823409C}" Name="AS_coast_music_shape" Pos="634.36804,659.14087,124.875" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16763904" Width="0" Height="100" AreaId="0" GroupId="2" Priority="10" Closed="1" DisplayFilled="0" DisplaySoundInfo="0" Agent_height="0" Agent_width="0" Render_voxel_grid="0" voxel_offset_x="0" voxel_offset_y="0" EntityClass="AreaShape">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-15.118042,-210.39087,0"/>
+     <Point Pos="-58.868042,-278.26587,0"/>
+     <Point Pos="-138.74304,-298.01587,0"/>
+     <Point Pos="-178.57596,-282.91675,-0.048278809"/>
+     <Point Pos="-256.92798,-347.15439,0"/>
+     <Point Pos="-344.12155,-267.10092,-0.11920166"/>
+     <Point Pos="-45.894104,42.173523,-0.1340332"/>
+    </Points>
+    <Entities>
+     <Entity Id="{A568B923-ACB3-4184-B651-33D1E44262D4}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0" Side7="0" Side8="0" Roof="1" Floor="1"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{1E3EF138-E818-4213-9CEF-D22910878CF0}" Name="MTS_01_start_scene_silenced" Pos="862.89282,346.67856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme=""/>
+   </Object>
+   <Object Type="MusicPlayPattern" Layer="Music" Id="{AFB68C6E-2D25-4058-BFD6-697B136B034E}" Name="MPP_02_main_forest" Pos="862.89282,344.67856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicPlayPattern">
+    <Properties sPattern="" bPlayOnTop="0" bPlaySynched="0" bStopPrevious="0"/>
+   </Object>
+   <Object Type="MusicPlayPattern" Layer="Music" Id="{C09F5973-F897-4A5C-9D62-9964C7D36D4D}" Name="MPP_01_start_scene_silenced" Pos="862.89282,345.17856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicPlayPattern">
+    <Properties sPattern="" bPlayOnTop="0" bPlaySynched="0" bStopPrevious="0"/>
+   </Object>
+   <Object Type="Entity" Layer="Music" Id="{CDA89E75-AEC9-4641-82BF-EB0576E4995E}" Name="AT_music_forest" Pos="710.5,364.5,167" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="MusicEndTheme" Layer="Music" Id="{1D538580-3EB3-4ADE-97AC-EED557A62040}" Name="MusicEndTheme2" Pos="863.39282,346.17856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicEndTheme">
+    <Properties bEndEverything="0" nEndLimitInSec="10" bFadeOut="1" bIndoorOnly="0" bOutdoorOnly="0" bPlayEnd="0" bPlayEndAtFadePoint="0" bStopAtOnce="0"/>
+   </Object>
+   <Object Type="MusicPlayPattern" Layer="Music" Id="{96A5179C-FCC4-4B32-8BDF-0EBEAA2A9AF3}" Name="MPP_03_first_tutorial_100" Pos="862.89282,344.17856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicPlayPattern">
+    <Properties sPattern="" bPlayOnTop="0" bPlaySynched="0" bStopPrevious="0"/>
+   </Object>
+   <Object Type="MusicPlayPattern" Layer="Music" Id="{7D5400A6-6CD0-4741-BAB8-CC88658E4243}" Name="MPP_04_cave_01" Pos="862.89282,343.67856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicPlayPattern">
+    <Properties sPattern="" bPlayOnTop="0" bPlaySynched="0" bStopPrevious="0"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{1131EFA6-DD79-44FE-8B04-969478496916}" Name="MTS_05_cave_02" Pos="862.89282,348.67856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme=""/>
+   </Object>
+   <Object Type="Entity" Layer="Music" Id="{387180B4-49F1-4994-A154-F9EB9E384D5F}" Name="Music" Pos="726,374.5,190" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65280" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="1" PlaySequence="" ScriptCommand="" bTriggerOnce="1">
+     <MultiplayerOptions bNetworked="0" bPerPlayer="0"/>
+    </Properties>
+    <FlowGraph Description="" Group="Music" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="207" Class="entity:AreaTrigger" pos="-900,340,0" flags="0" EntityGUID="{CDA89E75-AEC9-4641-82BF-EB0576E4995E}" EntityGUID_64="4641AEC9CDA89E75">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="227" Class="Music:ThemeSelector" pos="-380,340,0" flags="0">
+       <Inputs theme_and_mood_ThemeAndMood="sdk_demo/forest_ambient" DelayInSeconds="0" KeepPreviousMood="0"/>
+      </Node>
+      <Node Id="229" Class="Music:LogicControl" pos="310,340,0" flags="0">
+       <Inputs mlp_Presets="sdk_musiclogic" SetAI="0" AddAI="50" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1" SetAIMultiplier="1"/>
+      </Node>
+      <Node Id="230" Class="Music:LogicEvents" pos="-580,1340,0" flags="0">
+       <Inputs mle_Events="LOCATION_CAVE"/>
+      </Node>
+      <Node Id="232" Class="entity:AreaTrigger" pos="-900,1340,0" flags="0" EntityGUID="{CA235B33-F227-4BE7-8D7D-06128E4DB7CD}" EntityGUID_64="4BE7F227CA235B33">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="234" Class="entity:AreaTrigger" pos="-900,1140,0" flags="0" EntityGUID="{CDA89E75-AEC9-4641-82BF-EB0576E4995E}" EntityGUID_64="4641AEC9CDA89E75">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="235" Class="Music:LogicEvents" pos="-580,1140,0" flags="0">
+       <Inputs mle_Events="LOCATION_FOREST"/>
+      </Node>
+      <Node Id="237" Class="entity:AreaTrigger" pos="-900,1540,0" flags="0" EntityGUID="{A568B923-ACB3-4184-B651-33D1E44262D4}" EntityGUID_64="4184ACB3A568B923">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="238" Class="Music:LogicEvents" pos="-580,1540,0" flags="0">
+       <Inputs mle_Events="LOCATION_COAST"/>
+      </Node>
+      <Node Id="239" Name="Player_location" Class="_commentbox" pos="-920,1070,0" flags="0">
+       <Inputs TextSize="1" Color="1,1,1" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="570" Height="610"/>
+       <NodeSize Width="570" Height="655.651"/>
+      </Node>
+      <Node Id="242" Class="Music:ThemeSelector" pos="-380,700,0" flags="0">
+       <Inputs theme_and_mood_ThemeAndMood="sdk_demo/coast_ambient" DelayInSeconds="0" KeepPreviousMood="0"/>
+      </Node>
+      <Node Id="243" Class="Music:ThemeSelector" pos="-380,520,0" flags="0">
+       <Inputs theme_and_mood_ThemeAndMood="sdk_demo/cave_ambient" DelayInSeconds="0" KeepPreviousMood="0"/>
+      </Node>
+      <Node Id="244" Class="entity:AreaTrigger" pos="-900,520,0" flags="0" EntityGUID="{CA235B33-F227-4BE7-8D7D-06128E4DB7CD}" EntityGUID_64="4BE7F227CA235B33">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="245" Class="entity:AreaTrigger" pos="-900,700,0" flags="0" EntityGUID="{A568B923-ACB3-4184-B651-33D1E44262D4}" EntityGUID_64="4184ACB3A568B923">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="248" Class="Logic:Gate" pos="-600,340,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="249" Class="Logic:Gate" pos="-600,520,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="250" Class="Logic:Gate" pos="-600,700,0" flags="0">
+       <Inputs Closed="0"/>
+      </Node>
+      <Node Id="251" Class="Logic:Any" pos="-380,900,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="252" Class="Logic:Any" pos="-770,910,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="253" Name="Start_music" Class="_commentbox" pos="-920,269.99997,0" flags="0">
+       <Inputs TextSize="1" Color="1,1,1" DisplayFilled="0" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="1450" Height="690"/>
+       <NodeSize Width="1450" Height="735.651"/>
+      </Node>
+      <Node Id="260" Class="Logic:Any" pos="120,340,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="248" nodeOut="207" portIn="In" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="260" nodeOut="227" portIn="in1" portOut="Started" enabled="1"/>
+      <Edge nodeIn="230" nodeOut="232" portIn="Send" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="235" nodeOut="234" portIn="Send" portOut="Faction" enabled="1"/>
+      <Edge nodeIn="238" nodeOut="237" portIn="Send" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="260" nodeOut="242" portIn="in3" portOut="Started" enabled="1"/>
+      <Edge nodeIn="260" nodeOut="243" portIn="in2" portOut="Started" enabled="1"/>
+      <Edge nodeIn="249" nodeOut="244" portIn="In" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="250" nodeOut="245" portIn="In" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="227" nodeOut="248" portIn="Play" portOut="Out" enabled="1"/>
+      <Edge nodeIn="251" nodeOut="248" portIn="in1" portOut="Out" enabled="1"/>
+      <Edge nodeIn="243" nodeOut="249" portIn="Play" portOut="Out" enabled="1"/>
+      <Edge nodeIn="251" nodeOut="249" portIn="in2" portOut="Out" enabled="1"/>
+      <Edge nodeIn="242" nodeOut="250" portIn="Play" portOut="Out" enabled="1"/>
+      <Edge nodeIn="251" nodeOut="250" portIn="in3" portOut="Out" enabled="1"/>
+      <Edge nodeIn="252" nodeOut="251" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="248" nodeOut="252" portIn="Close" portOut="out" enabled="1"/>
+      <Edge nodeIn="249" nodeOut="252" portIn="Close" portOut="out" enabled="1"/>
+      <Edge nodeIn="250" nodeOut="252" portIn="Close" portOut="out" enabled="1"/>
+      <Edge nodeIn="229" nodeOut="260" portIn="Start" portOut="out" enabled="1"/>
+     </Edges>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="MusicPlayPattern" Layer="Music" Id="{F9B311C8-7A8D-4EAD-84C1-468D6707E1F0}" Name="MPP_06_start_scene" Pos="862.89282,342.67856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicPlayPattern">
+    <Properties sPattern="" bPlayOnTop="0" bPlaySynched="0" bStopPrevious="0"/>
+   </Object>
+   <Object Type="MusicPlayPattern" Layer="Music" Id="{3FCD0ACD-97C4-4253-B378-2042C3824A2C}" Name="MPP_05_cave_02" Pos="862.89282,343.17856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicPlayPattern">
+    <Properties sPattern="" bPlayOnTop="0" bPlaySynched="0" bStopPrevious="0"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{5E5316CF-BAA2-461A-B388-56C746DF8EC6}" Name="MTS_04_cave_01" Pos="862.89282,348.17856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme=""/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{648804F0-9222-40BE-B1B9-C37BA2A9121F}" Name="MTS_06_start_scene" Pos="862.89282,349.17856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme=""/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{DC23F7FE-8ECC-4409-987C-725B639BF97D}" Name="MTS_02_main_forest" Pos="862.89282,347.17856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme=""/>
+   </Object>
+   <Object Type="MusicEndTheme" Layer="Music" Id="{522D35FF-095E-4829-BD3D-AA87BAB165E9}" Name="MusicEndTheme1" Pos="863.39282,345.67856,222.10872" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="MusicEndTheme">
+    <Properties bEndEverything="0" nEndLimitInSec="10" bFadeOut="1" bIndoorOnly="0" bOutdoorOnly="0" bPlayEnd="0" bPlayEndAtFadePoint="0" bStopAtOnce="0"/>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

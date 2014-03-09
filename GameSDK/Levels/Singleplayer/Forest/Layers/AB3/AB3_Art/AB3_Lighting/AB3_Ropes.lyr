@@ -1,0 +1,589 @@
+<ObjectLayer>
+ <Layer Name="AB3_Ropes" GUID="{BE834875-F316-4BB7-9A52-878087C51FEB}" FullName="AB3/AB3_Art/AB3_Lighting/AB3_Ropes" Hidden="0" Frozen="0" External="1" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="0" ID="0" Color="8772314" ParentGUID="{CD3E336B-0217-4554-93CB-F8BF3C829B29}">
+  <LayerObjects>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{60CED300-CBAD-43F7-AD13-E307D13A3D1E}" Name="Rope16" Pos="553.83765,491.97705,151.48778" FloorNumber="-1" Rotate="-0.38268337,0,0,0.92387956" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.1" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="3.6988673,0.13714525,0.42977905"/>
+     <Point Pos="-3.6988583,-0.13712685,-0.42977905"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{AA835301-5C3A-4D05-81EE-98F8789EE69F}" Name="Rope23" Pos="577.1604,551.60742,150.77933" FloorNumber="-1" Rotate="0.7986356,0,0,0.60181493" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.029999999" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="11.014221,-2.207489,0.10902405"/>
+     <Point Pos="-11.022419,2.22118,-0.10903931"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{43F5C904-E0C0-4E1B-A5C8-73B5358AE7C5}" Name="Rope9" Pos="471.94177,433.02832,155.09425" FloorNumber="-1" Rotate="0.96363044,0,0,0.26723838" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="8.633359,-3.7417715,0.67373657"/>
+     <Point Pos="-8.6333876,3.7417588,-0.67373657"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{0A3B4605-CA9C-4C25-8173-536A27E3EA9B}" Name="Rope68" Pos="440.75034,416.51221,155.25787" FloorNumber="-1" Rotate="0.76040596,0,0,0.6494481" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="8.3511381,-3.3964701,-0.76283264"/>
+     <Point Pos="-8.3511295,3.3964753,0.76281738"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{5BE1E707-026D-46D3-AB36-6DE5E94E22D5}" Name="Rope57" Pos="552.3208,456.33051,151.03497" FloorNumber="-1" Rotate="-0.38268337,0,0,0.92387956" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.02" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="-9.2196932,3.0555055,0.15461731"/>
+     <Point Pos="9.219656,-3.0554082,-0.15463257"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{89A51B0C-B4DB-40DA-92DB-97716B48CB11}" Name="Rope64b" Pos="541.98792,434.86371,150.74365" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="2.7754822,-0.83544922,-0.14871216"/>
+     <Point Pos="-2.7754517,0.83538818,0.1486969"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{E073F416-E23F-480A-BD7F-A42CCD4450A7}" Name="Rope5" Pos="518.62146,440.54041,151.68353" FloorNumber="-1" Rotate="0.99965733,0,0,0.026176937" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.02" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="7.2804608,-2.0889909,-0.0018005371"/>
+     <Point Pos="-7.2803969,2.0890329,0.0018005371"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{FFFABE27-9033-431C-AE73-A2D879BBDDEA}" Name="Rope63" Pos="522.94177,448.78735,150.20126" FloorNumber="-1" Rotate="0.70710677,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.1" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="-0.32196045,-3.9614868,-0.83930969"/>
+     <Point Pos="0.32196045,3.9614258,0.83932495"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{85A99028-DD9B-4DD6-936D-27AAC9604F70}" Name="Rope11" Pos="539.15955,428.5144,151.30249" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="3.4802246,-1.9370117,-0.68444824"/>
+     <Point Pos="-3.4802246,1.9370728,0.68443298"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{6EA5D82A-81DC-4BF3-BE11-F02FCBD92FEC}" Name="Rope12" Pos="526.474,443.41049,150.30258" FloorNumber="-1" Rotate="0.70710677,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.029999999" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="4.9936523,-0.60333252,-0.96835327"/>
+     <Point Pos="-4.9936514,0.60335875,0.95002747"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{0AAF7E2E-B3A4-4C69-8E2B-3250EF9CF982}" Name="Rope10" Pos="472.26996,431.80252,155.11188" FloorNumber="-1" Rotate="0.96363044,0,0,0.26723838" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.02" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="8.6657467,-3.7566879,0.68237305"/>
+     <Point Pos="-8.6657162,3.7566631,-0.68238831"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{09B18C31-DC1B-4C7D-80AD-D28094D175FE}" Name="Rope45" Pos="605.48444,603.75983,154.21213" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710671" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="15" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="10.765869,-9.2754517,3.5587616"/>
+     <Point Pos="-10.765869,9.2754517,-3.5587769"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{6078533A-A8B7-4CDF-A413-199BF19EE7C4}" Name="Rope22" Pos="578.36005,551.25793,150.77496" FloorNumber="-1" Rotate="0.7986356,0,0,0.60181493" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.02" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="10.846537,-2.2238929,0.13328552"/>
+     <Point Pos="-10.846445,2.2238922,-0.13328552"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{8695EB40-8172-4F16-8352-85346E45779C}" Name="Rope46" Pos="604.53564,604.60291,154.23856" FloorNumber="-1" Rotate="0.70710689,0,0,0.70710671" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="15" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="10.867371,-9.3703003,3.552124"/>
+     <Point Pos="-10.86731,9.3703003,-3.5521393"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{F833DB49-7D11-47F4-B441-B9E6CDD58CAB}" Name="Rope69" Pos="412.75897,397.71075,161.07042" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="-3.8311768,6.5538635,0.77033997"/>
+     <Point Pos="3.8312073,-6.553833,-0.77033997"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{14BF9E55-FA7E-4A4D-94CC-DB9628B9094F}" Name="Rope83" Pos="563.85852,361.26514,156.46808" FloorNumber="-1" Rotate="0.89493436,0,0,-0.44619787" Scale="0.43000001,0.43000001,0.43000001" ColorRGB="65280" Material="Materials/generic/metal/ceiling_metal_01" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="15" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="8.2906208,2.2731385,-2.1513062"/>
+     <Point Pos="-8.2905788,-2.2731791,2.1513367"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{D717085A-49B1-4059-A6D6-609DFCBA8B12}" Name="Rope1" Pos="531.48627,431.80054,151.87463" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.02" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="5.4705811,-7.0234375,0.13285828"/>
+     <Point Pos="-5.4705811,7.023468,-0.13287354"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{14E13E5F-8830-4691-A3C8-EFF361B01C66}" Name="Rope33" Pos="454.18027,427.39862,154.48004" FloorNumber="-1" Rotate="0.93041754,0,0,0.36650127" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="8.5693188,-3.6666179,0.015014648"/>
+     <Point Pos="-8.5692949,3.6666408,-0.01499939"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{E103CB63-EE68-4E24-89C5-1ED07B508641}" Name="Rope21" Pos="568.5188,529.91907,150.92705" FloorNumber="-1" Rotate="0.7986356,0,0,0.60181493" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="12.381714,-1.3528442,-0.27474976"/>
+     <Point Pos="-12.377995,1.3375536,0.27474976"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{D1804673-9536-45C5-9F1C-1B76EF4D098D}" Name="Rope20" Pos="567.34644,530.31323,150.89273" FloorNumber="-1" Rotate="0.7986356,0,0,0.60181493" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="12.146293,-1.3381466,-0.26519775"/>
+     <Point Pos="-12.146369,1.3381062,0.26519775"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{05E55779-3AE7-413E-B2CA-7C282EAF1AB5}" Name="Rope42" Pos="582.93317,570.32141,151.54449" FloorNumber="-1" Rotate="0.7986356,0,0,0.60181493" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="8.5748816,1.8235506,0.62162781"/>
+     <Point Pos="-8.5744629,-1.8220215,-0.62162781"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{3BF2477A-D27C-4A89-9AF1-88FC4500C57D}" Name="Rope70" Pos="439.95645,417.3916,155.25787" FloorNumber="-1" Rotate="0.76040596,0,0,0.6494481" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="8.6887884,-3.6728377,-0.76283264"/>
+     <Point Pos="-8.6888371,3.6728425,0.7628479"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{ED5E2D7C-F27E-423A-9FE1-2C9CB51AB869}" Name="Rope43" Pos="590.54089,586.00378,151.42688" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710671" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="15" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.02" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="7.0328979,-5.7288208,-0.75663757"/>
+     <Point Pos="-7.0328379,5.7287598,0.75665283"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{ADB5A680-6BC7-4113-AC48-3E928F795663}" Name="Rope19" Pos="555.71307,511.62903,151.58641" FloorNumber="-1" Rotate="0.7986356,0,0,0.60181493" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.029999999" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="9.0301104,-4.6942463,-0.42478943"/>
+     <Point Pos="-9.0301313,4.6942687,0.42478943"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{FC19E483-F15F-44F8-93F7-F6CB42CF87F9}" Name="Rope58" Pos="537.25183,448.64069,150.96616" FloorNumber="-1" Rotate="-0.38268337,0,0,0.92387956" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.029999999" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="-6.8323727,2.1457305,0.27886963"/>
+     <Point Pos="6.8323822,-2.1457775,-0.27886963"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{E4659785-A52E-4227-84F1-4DADE889FC11}" Name="Rope44" Pos="589.34949,586.3761,151.41678" FloorNumber="-1" Rotate="0.70710689,0,0,0.70710671" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="15" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.02" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="7.3051147,-5.8101196,-0.77043152"/>
+     <Point Pos="-7.3051157,5.8100586,0.77041626"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{096D8886-55CC-4538-BAD6-58245A6FDBB3}" Name="Rope55" Pos="565.98486,469.40857,152.50662" FloorNumber="-1" Rotate="-0.38268337,0,0,0.92387956" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.029999999" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="-9.7736397,-2.601711,0.96258545"/>
+     <Point Pos="9.7737322,2.6016679,-0.96260071"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{45637F92-8E8A-41B3-8925-8302F02F9088}" Name="Rope72" Pos="426.96198,406.06,158.15697" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="-3.3109131,8.0258789,2.1285095"/>
+     <Point Pos="3.3108826,-8.0258484,-2.1285095"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{5B549198-59EB-48CF-93D3-8B75E6ECBE77}" Name="Rope59" Pos="528.38208,441.83502,150.97583" FloorNumber="-1" Rotate="0.70710677,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.1" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="3.4411316,-2.5460815,0.064788818"/>
+     <Point Pos="-3.4411621,2.5460815,-0.064804077"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{AEE62499-C2EB-440B-AC75-7297F1D15D97}" Name="Rope62" Pos="508.94916,445.29919,150.89774" FloorNumber="-1" Rotate="0.70710677,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.1" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="-3.4450989,-2.399353,0.28848267"/>
+     <Point Pos="3.4450989,2.3993835,-0.28849792"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{DF3B48A1-5B77-4199-A263-74F092538F8B}" Name="Rope2" Pos="530.7926,430.9447,151.84473" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="5.517395,-6.8594666,0.099838257"/>
+     <Point Pos="-5.5174561,6.859436,-0.099838257"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{3600ECA2-4EAB-4901-8FE6-6621CC82F1F2}" Name="Rope56" Pos="563.45105,480.10419,152.06967" FloorNumber="-1" Rotate="-0.38268337,0,0,0.92387956" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.029999999" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="3.9971049,-6.737042,-1.050293"/>
+     <Point Pos="-3.9971721,6.7370849,1.050293"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{334212A6-304D-42E1-A132-036EAD01029F}" Name="Rope61" Pos="515.15985,445.46396,150.93536" FloorNumber="-1" Rotate="0.70710677,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.029999999" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="-3.6450195,3.8230896,-0.10523987"/>
+     <Point Pos="3.6450195,-3.8231201,0.10523987"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{3D2B3BA8-9FBF-4546-BEC8-3B7D088BF2CA}" Name="Rope50" Pos="544.95532,504.51917,151.69215" FloorNumber="-1" Rotate="0.38268346,0,0,0.9238795" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.1" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="2.8612387,2.4813037,-0.26574707"/>
+     <Point Pos="-2.8612759,-2.4813449,0.26574707"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{245583A9-F2CF-4E39-9DBE-82475760AC23}" Name="Rope17" Pos="552.91705,499.25943,151.30051" FloorNumber="-1" Rotate="0.38268346,0,0,0.9238795" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.029999999" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="5.6369581,-0.75827634,-0.10881042"/>
+     <Point Pos="-5.6369634,0.75827938,0.10879517"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{4E732BAB-CB5D-4464-8339-6E861AF3A966}" Name="Rope51" Pos="534.74506,512.01965,151.22409" FloorNumber="-1" Rotate="0.38268346,0,0,0.9238795" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.02" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="9.6728773,-0.61196607,0.15510559"/>
+     <Point Pos="-9.6729221,0.61195898,-0.15512085"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{E1C68CAB-0967-42A2-83AA-BFAC6CD4A442}" Name="Rope74" Pos="589.31299,451.22998,157.37234" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="3" radius="0.0099999998" anchor_radius="0.050000001" num_seg="8" num_sides="4" texu="1" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="0" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="-0.023681641,0.0077819824,0.17314148"/>
+     <Point Pos="0.023620605,-0.0078125,-0.16693115"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{131CDDB1-659C-4039-BAB0-92EE8C0AE479}" Name="Rope7" Pos="487.74246,436.47464,153.94449" FloorNumber="-1" Rotate="0.96363044,0,0,0.26723838" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.02" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="6.67344,-1.4527352,-1.7795868"/>
+     <Point Pos="-6.6734538,1.4527439,1.7795715"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{AE9BE3B7-7BCC-4D86-A3FA-29DE13EF3F82}" Name="Rope71" Pos="427.68903,405.15503,158.16089" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="-3.6094666,8.3851624,2.1343536"/>
+     <Point Pos="3.6094971,-8.3851624,-2.1343689"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{F3A2CCBB-E6DE-4063-A749-77248D965D2D}" Name="Rope67" Pos="453.79187,428.59229,154.44572" FloorNumber="-1" Rotate="0.93041754,0,0,0.36650127" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="8.6501646,-3.7085757,-0.019317627"/>
+     <Point Pos="-8.6501837,3.7085617,0.019317627"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{EC96ECC0-9DA4-463E-8F8D-39402A17B8BE}" Name="Rope15b" Pos="553.65259,485.54077,151.64551" FloorNumber="-1" Rotate="0.9238795,0,0,-0.38268346" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="4.0271392,-0.92765176,-0.25361633"/>
+     <Point Pos="-4.0271807,0.92766476,0.25363159"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{E2BE55C3-71D2-4BE3-8231-EC98B3DB245E}" Name="Rope8" Pos="488.10712,435.24814,154.00882" FloorNumber="-1" Rotate="0.96363044,0,0,0.26723838" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0049999999" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="6.680171,-1.4477421,-1.7811584"/>
+     <Point Pos="-6.6801691,1.447757,1.7811432"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{9A1A86CB-0FCC-42C1-80DA-782310220137}" Name="Rope13" Pos="519.71667,455.46167,149.8723" FloorNumber="-1" Rotate="0.70710677,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.1" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="1.3565979,-2.4509888,0.75218201"/>
+     <Point Pos="-1.3565671,2.4509277,-0.75218201"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{4AA55CCF-0186-405E-9B78-8CA42E45FB1D}" Name="Rope54" Pos="547.94061,476.86865,151.41159" FloorNumber="-1" Rotate="-0.38268337,0,0,0.92387956" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="3.4997821,-0.45599765,-0.34255981"/>
+     <Point Pos="-3.4997942,0.45598251,0.34254456"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{79D280CF-13BB-4774-957A-196C52750DAD}" Name="Rope4" Pos="502.72058,440.45612,151.94604" FloorNumber="-1" Rotate="0.96363044,0,0,0.26723838" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="8.2126398,-2.8484752,-0.26431274"/>
+     <Point Pos="-8.2126532,2.8484547,0.26429749"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{AACFC8D6-228A-4660-ACF7-50C64751B2DE}" Name="Rope3" Pos="502.94379,439.22791,151.96069" FloorNumber="-1" Rotate="0.96363044,0,0,0.26723838" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.02" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="8.0459824,-2.7851751,-0.25309753"/>
+     <Point Pos="-8.0459976,2.785229,0.25311279"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{9DD927DE-260C-4D8D-B74E-9849C7CC7D9B}" Name="Rope60" Pos="518.17786,451.5321,149.86674" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.2" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="-2.3863831,-0.89788818,0.74662781"/>
+     <Point Pos="2.3863528,0.89794916,-0.74662781"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{E12297E1-4C71-466C-B890-F98162375842}" Name="Rope52" Pos="516.44464,521.71313,152.68185" FloorNumber="-1" Rotate="0.38268346,0,0,0.9238795" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="10.143927,6.6365128,1.6532898"/>
+     <Point Pos="-10.143986,-6.6364756,-1.6533051"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{0B51DDE3-A470-4734-98D2-6A60D55F69D0}" Name="Rope18" Pos="556.78162,510.944,151.59552" FloorNumber="-1" Rotate="0.7986356,0,0,0.60181493" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.02" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="9.1032095,-4.7076197,-0.40522766"/>
+     <Point Pos="-9.1031713,4.7075224,0.40524292"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{220FE9EA-40DA-494C-AABB-62198428BC0D}" Name="Rope14" Pos="553.40796,480.59296,151.55984" FloorNumber="-1" Rotate="0.70710683,0,0,0.70710677" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.1" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="1.4068298,-2.4487305,-0.13415527"/>
+     <Point Pos="-1.4068604,2.4487305,0.13415527"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{946D37EE-4CED-4364-ACDA-EC88285C6861}" Name="Rope6" Pos="518.26941,439.41275,151.7178" FloorNumber="-1" Rotate="0.99965733,0,0,0.026176937" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="6.902832,-1.942688,0.039428711"/>
+     <Point Pos="-6.9028091,1.9427007,-0.039428711"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{178360F1-09BC-4093-ACE5-D16AA4B72169}" Name="Rope53" Pos="541.61865,481.62946,151.38274" FloorNumber="-1" Rotate="-0.38268337,0,0,0.92387956" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="-2.3963013,-7.4040184,-0.00079345703"/>
+     <Point Pos="2.3962402,7.4041176,0.00079345703"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+   <Object Type="Rope" Layer="AB3_Ropes" Id="{B6DCF1FE-3C46-42CA-86A6-8B4DD65732CF}" Name="Rope41" Pos="584.14893,570.02979,151.55292" FloorNumber="-1" Rotate="0.7986356,0,0,0.60181493" ColorRGB="65280" Material="Materials/references/base_colors/black" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="1039" radius="0.029999999" anchor_radius="0.1" num_seg="8" num_sides="8" texu="1" texv="1" ph_num_seg="8" ph_sub_vtxs="3" mass="1" friction="2" friction_pull="100" wind="0,0,10" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0" tension="-0.0099999998" max_iters="650" max_time_step="0.02" stiffness="10" hardness="20" damping="0.2" sleepSpeed="0.039999999"/>
+    <Properties>
+     <MultiplayerOptions bNetworked="0"/>
+    </Properties>
+    <Points>
+     <Point Pos="8.7915077,1.8336157,0.63369751"/>
+     <Point Pos="-8.7915792,-1.8335396,-0.63369751"/>
+    </Points>
+    <SoundData Side1="0" Side2="0" Roof="0" Floor="0"/>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

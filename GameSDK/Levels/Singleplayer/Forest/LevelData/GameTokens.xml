@@ -1,0 +1,19 @@
+<GameTokens>
+ <GameTokensLibrary>
+  <LevelLibrary Name="Level">
+   <GameToken Name="Forest.Mission_01_Activated" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Forest.Mission_01_Completed" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Forest.Mission_01_Deactivated" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Forest.Mission_02_Activated" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Forest.Mission_02_Completed" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Forest.Mission_02_Deactivated" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Forest.Mission_03_Activated" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Forest.Mission_03_Completed" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Forest.Mission_03_Deactivated" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Forest.LevelIntroComplete" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Forest.Mission_02b_Activated" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Forest.Mission_02b_Completed" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="Forest.Mission_02b_Deactivated" Type="Bool" Value="false" LocalOnly="1"/>
+  </LevelLibrary>
+ </GameTokensLibrary>
+</GameTokens>
