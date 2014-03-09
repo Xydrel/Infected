@@ -1,0 +1,32 @@
+<Objects>
+ <Object Type="Entity" Layer="trash" Id="{D4CCAF9D-FEF5-4C73-A057-EF21796AF4C6}" Name="Crydesigner_light3" Parent="{F7FD35DA-9C82-4F4F-B451-2DC9D014FF28}" Pos="-0.62719727,0,-0.38453674" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="8" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+  <Properties bActive="1" _bCheapLight="0" bForceDisableCheapLight="0" Radius="900" _nVersion="0">
+   <Color clrDiffuse="0.103634,0.267358,0.618686" fDiffuseMultiplier="0.1" fHDRDynamic="0" fSpecularMultiplier="0"/>
+   <Options bAffectsThisAreaOnly="1" bAmbient="0" fAttenuationFalloffMax="1" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bDisableX360Opto="0" bFakeLight="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" bIgnoresVisAreas="0" bIrradianceVolumes="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1" SortPriority="0"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Shape bAreaLight="0" fDiffuseSoftness="0.75" fLightFov="180" fPlaneHeight="1" fPlaneWidth="1" texture_Texture="" bTextureReflection="1" vFadeDimensionsBottom="0" vFadeDimensionsFar="0" vFadeDimensionsLeft="0" vFadeDimensionsNear="0" vFadeDimensionsRight="0" vFadeDimensionsTop="0"/>
+   <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="trash" Id="{1CF032D8-DFA7-4AB6-B42C-AA244FA5DE55}" Name="Crydesigner_light2" Parent="{F7FD35DA-9C82-4F4F-B451-2DC9D014FF28}" Pos="0.59936523,0,0.52646637" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="8" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+  <Properties bActive="1" _bCheapLight="0" bForceDisableCheapLight="0" Radius="900" _nVersion="0">
+   <Color clrDiffuse="0.493616,0.275833,0.0717615" fDiffuseMultiplier="0.2" fHDRDynamic="0" fSpecularMultiplier="0"/>
+   <Options bAffectsThisAreaOnly="1" bAmbient="0" fAttenuationFalloffMax="1" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bDisableX360Opto="0" bFakeLight="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" bIgnoresVisAreas="0" bIrradianceVolumes="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1" SortPriority="0"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Shape bAreaLight="0" fDiffuseSoftness="0.75" fLightFov="180" fPlaneHeight="1" fPlaneWidth="1" texture_Texture="" bTextureReflection="1" vFadeDimensionsBottom="0" vFadeDimensionsFar="0" vFadeDimensionsLeft="0" vFadeDimensionsNear="0" vFadeDimensionsRight="0" vFadeDimensionsTop="0"/>
+   <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Entity" Layer="trash" Id="{DD6C3D36-DF56-4FCA-B2A9-EBA1BE5E2809}" Name="Crydesigner_light" Parent="{F7FD35DA-9C82-4F4F-B451-2DC9D014FF28}" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="8" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" GlobalInSegmentedWorld="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light">
+  <Properties bActive="1" _bCheapLight="0" bForceDisableCheapLight="0" Radius="900" _nVersion="0">
+   <Color clrDiffuse="1,1,1" fDiffuseMultiplier="0.8" fHDRDynamic="0" fSpecularMultiplier="1"/>
+   <Options bAffectsThisAreaOnly="1" bAmbient="0" fAttenuationFalloffMax="1" nCastShadows="0" file_deferred_clip_geom="" texture_deferred_cubemap="" bDeferredClipBounds="0" bDeferredLight="1" bDisableX360Opto="0" bFakeLight="0" flare_Flare="" bFlareEnable="1" fFlareFOV="360" bIgnoresVisAreas="0" bIrradianceVolumes="0" fShadowBias="1" nShadowMinResPercent="0" fShadowResolutionScale="1" fShadowSlopeBias="1" fShadowUpdateMinRadius="10" fShadowUpdateRatio="1" SortPriority="0"/>
+   <Projector bProjectInAllDirs="0" fProjectorFov="90" fProjectorNearPlane="0" texture_Texture=""/>
+   <Shape bAreaLight="0" fDiffuseSoftness="0.75" fLightFov="180" fPlaneHeight="1" fPlaneWidth="1" texture_Texture="" bTextureReflection="1" vFadeDimensionsBottom="0" vFadeDimensionsFar="0" vFadeDimensionsLeft="0" vFadeDimensionsNear="0" vFadeDimensionsRight="0" vFadeDimensionsTop="0"/>
+   <Style nAnimationPhase="0" fAnimationSpeed="1" bAttachToSun="0" lightanimation_LightAnimation="" nLightStyle="0" _fTimeScrubbed="0" bTimeScrubbingInTrackView="0"/>
+  </Properties>
+ </Object>
+ <Object Type="Camera" Layer="trash" Id="{F7FD35DA-9C82-4F4F-B451-2DC9D014FF28}" Name="Crydesigner_camera" Pos="1369.0914,1339.4783,103.93846" FloorNumber="-1" Rotate="1,-0,0,0" ColorRGB="16776960" FOV="1.0472" NearZ="0.25" FarZ="1024" EntityClass="CameraSource">
+  <ShakeParams AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0"/>
+ </Object>
+</Objects>

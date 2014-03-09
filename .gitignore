@@ -32,14 +32,14 @@ error.dmp
 # Directories
 TestResults/
 statoscope/
-Bin32/
-Bin64/
+#Bin32/
+#Bin64/
 BinTemp/
 LogBackups/
 Tools/
 USER/
-Editor/UI/
-Editor/
+#Editor/UI/
+#Editor/
 comm/comm.txt
 *CryEngine_GameCodeOnly.sdf
 *ipch/
