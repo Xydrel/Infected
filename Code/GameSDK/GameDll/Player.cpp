@@ -6972,12 +6972,12 @@ CPlayer::StagePlayer(bool bStage, SStagingParams* pStagingParams /* = 0 */)
 	{
 		bLock = pStagingParams->bLocked;
 
-		m_params.viewLimits.SetViewLimit(	pStagingParams->vLimitDir,
-																			pStagingParams->vLimitRangeH,
-																			pStagingParams->vLimitRangeV,
-																			0.f,
-																			0.f,
-																			SViewLimitParams::eVLS_Stage);
+		m_params.viewLimits.SetViewLimit(pStagingParams->vLimitDir,
+										 pStagingParams->vLimitRangeH,
+										 pStagingParams->vLimitRangeV,
+										 0.f,
+										 0.f,
+										 SViewLimitParams::eVLS_Stage);
 
 		stance = pStagingParams->stance;
 		if (bLock)

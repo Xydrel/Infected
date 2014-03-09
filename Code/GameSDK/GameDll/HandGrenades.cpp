@@ -187,7 +187,9 @@ void CHandGrenades::UpdateStowedWeapons()
 	{
 		if (m_stowSlot < 0)
 		{
-			m_stowSlot = PickStowSlot(pOwnerCharacter->GetIAttachmentManager(), m_sharedparams->params.bone_attachment_01.c_str(), m_sharedparams->params.bone_attachment_02.c_str());
+			m_stowSlot = PickStowSlot(pOwnerCharacter->GetIAttachmentManager(), 
+									  m_sharedparams->params.bone_attachment_01.c_str(), 
+									  m_sharedparams->params.bone_attachment_02.c_str());
 		}
 
 		if (m_stowSlot >= 0)

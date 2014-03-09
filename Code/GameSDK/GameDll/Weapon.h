@@ -176,7 +176,7 @@ public:
 	virtual void OnPickedUp(EntityId actorId, bool destroyed);
 	virtual void OnDropped(EntityId actorId, bool ownerWasAI);
 
-  virtual void OnDestroyed();
+	virtual void OnDestroyed();
 
 	virtual void FumbleGrenade() {};
 	virtual void StartQuickGrenadeThrow() {};
