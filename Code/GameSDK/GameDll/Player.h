@@ -585,7 +585,7 @@ public:
 	CPlayer();
 	virtual ~CPlayer();
 
-	virtual bool IsPlayerInfected() const ;								// Flag for the player infection mechanics
+	//virtual bool IsPlayerInfected() const ;								// Flag for the player infection mechanics
 
 	virtual bool IsHeadUnderWater() const;
 	virtual bool IsSwimming() const;

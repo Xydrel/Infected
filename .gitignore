@@ -28,6 +28,11 @@ Game_LevelLoadTime.log
 # dump files
 error.dmp
 *.dmp
+*.pdb
+
+# Database files
+*.sdf
+*.opensdf
 
 # Directories
 TestResults/
