@@ -2,12 +2,50 @@
 *.slo
 *.lo
 *.o
+*.obj
 
 # Compiled Dynamic libraries
 *.so
 *.dylib
+*.dll
+*.lib
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
+*.pak
+*.DS_STORE
+
+# Compiled executables
+*.exe
+
+# log files
+*.log
+Game.log
+Game_LevelLoadTime.log
+
+# dump files
+error.dmp
+*.dmp
+
+# Directories
+TestResults/
+statoscope/
+Bin32/
+Bin64/
+BinTemp/
+LogBackups/
+Tools/
+USER/
+Editor/UI/
+Editor/
+comm/comm.txt
+*CryEngine_GameCodeOnly.sdf
+*ipch/
+
+# Config files
+editor.cfg
+sysconfig.cfg
+
+luac.out
