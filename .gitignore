@@ -1,9 +1,18 @@
+# ------------------------------------------
+# File is used to exclude various file types
+# and directories from being pushed to the 
+# repo. Excluded files are typically binaries
+# which are created at compile time.
+# ------------------------------------------
+
+# ==========================
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
 
+# ==========================
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -11,6 +20,7 @@
 *.lib
 *.manifest
 
+# ==========================
 # Compiled Static libraries
 *.lai
 *.la
@@ -18,26 +28,32 @@
 *.pak
 *.DS_STORE
 
+# ==========================
 # Compiled executables
 *.exe
 
+# ==========================
 # log files
 *.log
 Game.log
 Game_LevelLoadTime.log
 
+# ==========================
 # dump files
 error.dmp
 *.dmp
 *.pdb
 
+# ==========================
 # Database files
 *.sdf
 *.opensdf
 
+# ==========================
 # Linker files
 *.ilk
 
+# ==========================
 # Directories
 TestResults/
 statoscope/
@@ -53,9 +69,11 @@ comm/comm.txt
 *CryEngine_GameCodeOnly.sdf
 *ipch/
 
+# ==========================
 # Config files
 editor.cfg
 *.cfg
 sysconfig.cfg
 
+# ==========================
 luac.out
