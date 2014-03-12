@@ -1,0 +1,14 @@
+* Version of cryengine project is build with * 
+CRYENGINE 3.5.8
+
+* Cry Dev main site * 
+http://www.crydev.net/
+
+* CryEngine Docs home page * 
+http://docs.cryengine.com/display/SDKDOC1/Home
+
+* Technical documentation - Programming *
+http://docs.cryengine.com/display/SDKDOC4/Home
+
+* Sandbox Manual - Level Design *
+http://docs.cryengine.com/display/SDKDOC2/Home
