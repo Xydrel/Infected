@@ -546,37 +546,37 @@ public:
 		eAF_JUMP_QUICK	= (1<<0),
 	};
 
-	static const NetworkAspectType ASPECT_HEALTH				= eEA_GameServerStatic;
-	static const NetworkAspectType ASPECT_FROZEN				= eEA_GameServerStatic;
+	static const NetworkAspectType ASPECT_HEALTH						= eEA_GameServerStatic;
+	static const NetworkAspectType ASPECT_FROZEN						= eEA_GameServerStatic;
 
-	static const NetworkAspectType ASPECT_PLAYERSTATS_SERVER								= eEA_GameServerA;
-	static const NetworkAspectType ASPECT_SPECTATOR													= eEA_GameServerC;
+	static const NetworkAspectType ASPECT_PLAYERSTATS_SERVER			= eEA_GameServerA;
+	static const NetworkAspectType ASPECT_SPECTATOR						= eEA_GameServerC;
 	
-	static const NetworkAspectType ASPECT_INPUT_CLIENT											= eEA_Aspect31;
-	static const NetworkAspectType ASPECT_INPUT_CLIENT_AUGMENTED						= eEA_GameClientO;
+	static const NetworkAspectType ASPECT_INPUT_CLIENT					= eEA_Aspect31;
+	static const NetworkAspectType ASPECT_INPUT_CLIENT_AUGMENTED		= eEA_GameClientO;
 
-	static const NetworkAspectType ASPECT_CURRENTLYTARGETTING_CLIENT				= eEA_GameClientB;
-	static const NetworkAspectType ASPECT_BATTLECHATTER_CLIENT							= eEA_GameClientB;
+	static const NetworkAspectType ASPECT_CURRENTLYTARGETTING_CLIENT	= eEA_GameClientB;
+	static const NetworkAspectType ASPECT_BATTLECHATTER_CLIENT			= eEA_GameClientB;
 
-	static const NetworkAspectType ASPECT_LEDGEGRAB_CLIENT									= eEA_GameClientC;	
+	static const NetworkAspectType ASPECT_LEDGEGRAB_CLIENT				= eEA_GameClientC;
 
-	static const NetworkAspectType ASPECT_LAST_MELEE_HIT										= eEA_GameClientD;
-	static const NetworkAspectType ASPECT_JUMPING_CLIENT										= eEA_GameClientE;
+	static const NetworkAspectType ASPECT_LAST_MELEE_HIT				= eEA_GameClientD;
+	static const NetworkAspectType ASPECT_JUMPING_CLIENT				= eEA_GameClientE;
 
-	static const NetworkAspectType ASPECT_FLASHBANG_SHOOTER_CLIENT					= eEA_GameClientG;
+	static const NetworkAspectType ASPECT_FLASHBANG_SHOOTER_CLIENT		= eEA_GameClientG;
 
-	static const NetworkAspectType ASPECT_SNAP_TARGET												= eEA_GameClientH;
+	static const NetworkAspectType ASPECT_SNAP_TARGET					= eEA_GameClientH;
 
-	static const NetworkAspectType ASPECT_RANK_CLIENT												= eEA_GameClientJ;
+	static const NetworkAspectType ASPECT_RANK_CLIENT					= eEA_GameClientJ;
 
-	static const NetworkAspectType ASPECT_STEALTH_KILL											= eEA_GameServerE;
-	static const NetworkAspectType ASPECT_INTERACTIVE_OBJECT								= eEA_GameClientK;
+	static const NetworkAspectType ASPECT_STEALTH_KILL					= eEA_GameServerE;
+	static const NetworkAspectType ASPECT_INTERACTIVE_OBJECT			= eEA_GameClientK;
 	
-	static const NetworkAspectType ASPECT_VEHICLEVIEWDIR_CLIENT							= eEA_GameClientL;
+	static const NetworkAspectType ASPECT_VEHICLEVIEWDIR_CLIENT			= eEA_GameClientL;
 
-	static const NetworkAspectType ASPECT_CURRENT_ITEM											= eEA_GameClientM;
+	static const NetworkAspectType ASPECT_CURRENT_ITEM					= eEA_GameClientM;
 
-	static const NetworkAspectType ASPECT_LADDER_SERVER											= eEA_GameClientG;
+	static const NetworkAspectType ASPECT_LADDER_SERVER					= eEA_GameClientG;
 
 
 	static const int MAX_NETWORKED_LEDGE_COUNT = 1024;
@@ -584,6 +584,8 @@ public:
 
 	CPlayer();
 	virtual ~CPlayer();
+
+	virtual bool IsPlayerInfected() const;
 
 	virtual bool IsHeadUnderWater() const;
 	virtual bool IsSwimming() const;
