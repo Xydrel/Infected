@@ -1,4 +1,0 @@
-This text file was placed here during the cache of CG vertex shaders.
-
-
-
