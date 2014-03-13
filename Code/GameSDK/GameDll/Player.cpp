@@ -387,7 +387,7 @@ void CPlayer::PostProcessAnimation(ICharacterInstance *pCharacter)
 CPlayer::CPlayer()
 : m_pLocalPlayerInteractionPlugin(NULL)
 #ifdef SERVER_CHECKS
-, m_p	ShotCounter(NULL)
+, m_pShotCounter(NULL)
 #endif // SERVER_CHECKS
 , m_deferredKnockDownPending(false)
 , m_deferredKnockDownImpulse(0.0f)
