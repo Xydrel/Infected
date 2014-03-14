@@ -585,7 +585,7 @@ public:
 	CPlayer();
 	virtual ~CPlayer();
 
-	virtual bool IsPlayerInfected() const;
+	virtual bool IsPlayerInfected();
 
 	virtual bool IsHeadUnderWater() const;
 	virtual bool IsSwimming() const;

@@ -9963,17 +9963,22 @@ namespace CPlayerGetSpawnInfo
 	};
 }
 
-bool CPlayer::IsPlayerInfected() const
+bool CPlayer::IsPlayerInfected() 
 {
 	// To later implement the flag of being an infected player jhoward
 	// if the player was randomly selected to be the first infected player 
 		// || The player was infected be another player and has completed the infection transition
-		// return true;
+		// m_bIsPlayerInfected = true;
+	    //if (m_bIsPlayerInfected == true)
+		//{
+			//CryLog("The player has started the match as the infected player");
+		//}
 	// else 
 		// return false
+	m_bIsPlayerInfected = false;
 
 	// temp return value before implementation of infection tech
-	return false;
+	return m_bIsPlayerInfected;
 }
 
 //------------------------------------------------------------------------
