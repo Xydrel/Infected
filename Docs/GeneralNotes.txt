@@ -1,0 +1,3 @@
+[jhoward]
+1. Looks like spawning happens in GameRules.cpp | at least it's handles at some point there
+2. ActorManager.cpp | looks like another place where spawning the player is controlled
