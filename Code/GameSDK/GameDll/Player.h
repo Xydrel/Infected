@@ -542,7 +542,7 @@ public:
 	typedef uint8 EActionFlags;
 	enum
 	{
-		eAF_NONE				= (0),
+		eAF_NONE		= (0),
 		eAF_JUMP_QUICK	= (1<<0),
 	};
 
@@ -1102,8 +1102,8 @@ public:
 	bool CanFall() const;
 	virtual void KnockDown(float backwardsImpulse);
 
-  virtual void SetLookAtTargetId(EntityId targetId, float interpolationTime=1.f);
-  virtual void SetForceLookAtTargetId(EntityId targetId, float interpolationTime=1.f);
+	virtual void SetLookAtTargetId(EntityId targetId, float interpolationTime=1.f);
+	virtual void SetForceLookAtTargetId(EntityId targetId, float interpolationTime=1.f);
 
 	virtual void DamageInfo(EntityId shooterID, EntityId weaponID, IEntityClass *pProjectileClass, float damage, int damageType, const Vec3 hitDirection);
 
@@ -1405,7 +1405,7 @@ private:
 	TPlayerUpdateListeners m_playerUpdateListeners;
 
 	//Health update
-	float				m_timeOfLastHealthSync;
+	float		m_timeOfLastHealthSync;
 	CTimeValue  m_lastTimeDamaged;
 
 	void UpdateHealthRegeneration(float fHealth, float frameTime);
@@ -1439,8 +1439,8 @@ private:
 
 	virtual void InitGameParams(const SActorGameParams &gameParams, const bool reloadCharacterSounds);
 
-  bool  MountedGunControllerEnabled() const   { return m_mountedGunControllerEnabled; }
-  void  MountedGunControllerEnabled(bool val) { m_mountedGunControllerEnabled = val; }
+	bool  MountedGunControllerEnabled() const   { return m_mountedGunControllerEnabled; }
+	void  MountedGunControllerEnabled(bool val) { m_mountedGunControllerEnabled = val; }
 
 	// Support for both AI and players
 	void SelectMovementHierarchy();
@@ -1472,24 +1472,21 @@ protected:
 	Matrix34 m_clientViewMatrix;
 
 	Vec3		m_eyeOffset;	// View system - used to interpolate to goal eye offset
-												//the offset from the entity origin to eyes, its not the real offset vector but its referenced to player view direction.
+								//the offset from the entity origin to eyes, its not the real offset vector but its referenced to player view direction.
 
 	Vec3		m_weaponOffset;
 
 	// updated by PlayerMovement for tracking time based acceleration
 	Vec3		m_lastRequestedVelocity;
-	Vec3    m_lastKnownPosition;
-	Vec3	m_lastSyncedWorldPosition;
-
+	Vec3		m_lastKnownPosition;
+	Vec3		m_lastSyncedWorldPosition;
 	Vec3		m_forcedLookDir;
-	EntityId		m_forcedLookObjectId;
-	
-	EntityId		m_lastFlashbangShooterId;
-	float				m_lastFlashbangTime;
+	EntityId	m_forcedLookObjectId;	
+	EntityId	m_lastFlashbangShooterId;
+	float		m_lastFlashbangTime;
+	float		m_lastZoomedTime;
 
-	float				m_lastZoomedTime;
-
-	SPlayerStats		m_stats;
+	SPlayerStats	m_stats;
 	
 	std::auto_ptr<IPlayerInput> m_pPlayerInput;
 
@@ -1509,7 +1506,7 @@ protected:
 	// probably temporary, feel free to figure out better place
 	float m_fDeathTime;
 
-	bool		m_sufferingHighLatency;
+	bool  m_sufferingHighLatency;
 	
 	CVehicleClient* m_pVehicleClient;
 	Vec3 m_vehicleViewDir;
@@ -1530,48 +1527,48 @@ protected:
 
 
 	IInteractor*			m_pInteractor;
-	IEntitySoundProxyPtr      m_pSoundProxy;
+	IEntitySoundProxyPtr    m_pSoundProxy;
 
-	SStagingParams m_stagingParams;
+	SStagingParams			m_stagingParams;
 
-	static const int									k_maxActivePlayerPlugIns = 6;
+	static const int		k_maxActivePlayerPlugIns = 6;
 
-	CStealthKill											m_stealthKill;
-	HitInfo														m_stealthKillDelayedHit;
-	CSpectacularKill									m_spectacularKill;
-	CLargeObjectInteraction						m_largeObjectInteraction;
-	CPickAndThrowProxyPtr							m_pPickAndThrowProxy;
-	int																m_numActivePlayerPlugins;
-	int 															m_pendingLoadoutGroup;
+	CStealthKill					m_stealthKill;
+	HitInfo							m_stealthKillDelayedHit;
+	CSpectacularKill				m_spectacularKill;
+	CLargeObjectInteraction			m_largeObjectInteraction;
+	CPickAndThrowProxyPtr			m_pPickAndThrowProxy;
+	int								m_numActivePlayerPlugins;
+	int 							m_pendingLoadoutGroup;
 
-	CPlayerPlugin*																m_activePlayerPlugins[k_maxActivePlayerPlugIns];
-	CPlayerPlugin_CurrentlyTargetting							m_currentlyTargettingPlugin;
-	CPlayerPlugin_Interaction*										m_pLocalPlayerInteractionPlugin;
-	CPlayerPlugin_InteractiveEntityMonitor*				m_pInteractiveEntityMonitorPlugin;
+	CPlayerPlugin*								m_activePlayerPlugins[k_maxActivePlayerPlugIns];
+	CPlayerPlugin_CurrentlyTargetting			m_currentlyTargettingPlugin;
+	CPlayerPlugin_Interaction*					m_pLocalPlayerInteractionPlugin;
+	CPlayerPlugin_InteractiveEntityMonitor*		m_pInteractiveEntityMonitorPlugin;
 
-	CPlayerModifiableValues                       m_modifiableValues;
+	CPlayerModifiableValues                     m_modifiableValues;
 	
-	SCharacterMoveRequest		m_request;
-	CMountedGunController		m_mountedGunController;
-	SPlayerRotationParams m_playerRotationParams;
-	CPlayerStateSwim_WaterTestProxy  m_playerStateSwim_WaterTestProxy;
+	SCharacterMoveRequest			m_request;
+	CMountedGunController			m_mountedGunController;
+	SPlayerRotationParams			m_playerRotationParams;
+	CPlayerStateSwim_WaterTestProxy m_playerStateSwim_WaterTestProxy;
 
-	SFrameMovementModifiers m_frameMovementModifiers;
+	SFrameMovementModifiers		m_frameMovementModifiers;
 
-	float										m_ragdollTime;
+	float						m_ragdollTime;
 
-	CHitRecoilGameEffect m_hitRecoilGameEffect;
-	CPlayerHealthGameEffect m_playerHealthEffect;
+	CHitRecoilGameEffect		m_hitRecoilGameEffect;
+	CPlayerHealthGameEffect		m_playerHealthEffect;
 	
 	float m_thermalVisionBaseHeat;
 
 	// Network
-	bool  m_netFlashBangStun;
-  bool  m_mountedGunControllerEnabled;
-	uint8 m_jumpCounter;
-	Vec3	m_jumpVel;
-	uint8 m_mpModelIndex;
-	uint8	m_ledgeCounter;
+	bool   m_netFlashBangStun;
+	bool   m_mountedGunControllerEnabled;
+	uint8  m_jumpCounter;
+	Vec3   m_jumpVel;
+	uint8  m_mpModelIndex;
+	uint8  m_ledgeCounter;
 	uint16 m_ledgeID;
 
 	EntityId m_ladderId;
@@ -1582,7 +1579,7 @@ protected:
 	typedef uint8 ELedgeFlags;
 	enum
 	{
-		eLF_NONE						= (0),
+		eLF_NONE			= (0),
 		eLF_FROM_ON_GROUND	= BIT(0),
 		eLF_FROM_SPRINTING	= BIT(1),
 	};
@@ -1593,8 +1590,8 @@ protected:
 	CItem::TempAGInputName m_lastItemClass;
 
 	SNetPlayerProgression m_netPlayerProgression;
-	SXPEvents							m_netXPEvents;
-	CTimeValue						m_netXPSendTime;
+	SXPEvents			  m_netXPEvents;
+	CTimeValue			  m_netXPSendTime;
 
 	CHitDeathReactionsPtr m_pHitDeathReactions;
 
@@ -1613,20 +1610,20 @@ private:
 
 	float m_lastLedgeTime;
 
-	EntityId			m_netCloseCombatSnapTargetId;
+	EntityId	m_netCloseCombatSnapTargetId;
 
 	EntityId	m_stealthKilledById;
 	EntityId	m_carryObjId;
-	bool			m_pickingUpCarryObject;
+	bool		m_pickingUpCarryObject;
 	IAttachment *m_pIAttachmentGrab;
 
 	void UpdateReactionOverlay(float frameTime);
 	void SetReactionOverlay(EReactionOverlay overlay);
 
 	EReactionOverlay m_reactionOverlay;
-	float						 m_reactionTimer;
-	float						 m_reactionFactor;
-	int							 m_reactionOverlayAnimIDs[EReaction_Total];
+	float			 m_reactionTimer;
+	float			 m_reactionFactor;
+	int				 m_reactionOverlayAnimIDs[EReaction_Total];
 
 	struct SReactionAnim
 	{
@@ -1673,10 +1670,10 @@ public:
 	CAnimationProxyDualCharacter m_animationProxy;
 	CAnimationProxyDualCharacterUpper m_animationProxyUpper;
 
-	CIKTorsoAim_Helper	m_torsoAimIK;
-	CLookAim_Helper	m_lookAim;
-	CWeaponFPAiming		m_weaponFPAiming;
-	SParams_WeaponFPAiming m_weaponParams;
+	CIKTorsoAim_Helper		m_torsoAimIK;
+	CLookAim_Helper			m_lookAim;
+	CWeaponFPAiming			m_weaponFPAiming;
+	SParams_WeaponFPAiming  m_weaponParams;
 
 	SAnimActionAIMovementSettings m_animActionAIMovementSettings;
 #ifdef SERVER_CHECKS
@@ -1685,10 +1682,10 @@ public:
 
 	float m_logPingTimer;
 	float m_deferredKnockDownImpulse;
+	float m_aimLimit;
 
 	int m_teamWhenKilled;
 
-	float m_aimLimit;
 	bool m_fpCompleteBodyVisible;
 	bool m_deferredKnockDownPending : 1;
 	bool m_registeredOnHUD : 1;
