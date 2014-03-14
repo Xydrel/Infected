@@ -35,10 +35,9 @@ private:
 
 	struct SUsefulSpawnData
 	{
-		EntityId	playerId;
+		EntityId		playerId;
 		int				playerTeamId;
 		int				numActiveFriendlyPlayers;
-
 		int				enemyTeamId;
 		int				numActiveEnemyPlayers;
 		bool			isInitialSpawn;
@@ -56,15 +55,14 @@ private:
 
 	void UpdateEnemyPlayerPositions(SUsefulSpawnData& spawnData, TPositionList& EnemyPlayerPositions);
 	
-	void UpdateFriendlyPlayerPositionsAndMultipliers(	SUsefulSpawnData& spawnData, TPositionList& FriendlyPlayerPositions,
-																										TMultiplierList& FriendlyPlayerMultipliers);	
+	void UpdateFriendlyPlayerPositionsAndMultipliers(	SUsefulSpawnData& spawnData, TPositionList& FriendlyPlayerPositions, TMultiplierList& FriendlyPlayerMultipliers );	
 
-	float	GetScoreFromProximityToLastPrecachedSpawn(const Vec3& lastSpawnPos, const Vec3& spawnPos) const;
-	float	GetScoreFromProximityToPreviousSpawn(const Vec3& lastSpawnPos, const Vec3& spawnPos) const;
+	float GetScoreFromProximityToLastPrecachedSpawn(const Vec3& lastSpawnPos, const Vec3& spawnPos) const;
+	float GetScoreFromProximityToPreviousSpawn(const Vec3& lastSpawnPos, const Vec3& spawnPos) const;
 	float GetScoreFromProximityToEnemies(SUsefulSpawnData& spawnData, TPositionList& EnemyPlayerPositions, const Vec3& potentialSpawnPosition);
 	float GetScoreFromProximityToEnemiesNoTeams(SUsefulSpawnData& spawnData, const Vec3& potentialSpawnPosition);
-	float GetScoreFromProximityToFriendlies(SUsefulSpawnData& spawnData, TPositionList& FriendlyPlayerPositions,
-																					TMultiplierList& FriendlyPlayerMultipliers,const Vec3& potentialSpawnPosition);
+	float GetScoreFromProximityToFriendlies(SUsefulSpawnData& spawnData, TPositionList& FriendlyPlayerPositions, TMultiplierList& FriendlyPlayerMultipliers, const Vec3& potentialSpawnPosition);
+
 	float GetScoreFromProximityToExclusionZones(SUsefulSpawnData& spawnData, EntityId spawnId);
 	float GetScoreFromProximityToIdealLocation(SUsefulSpawnData& spawnData, const Vec3& idealLocation, const Vec3& potentialSpawnPosition);
 	float GetScoreFromLineOfSight(SUsefulSpawnData& spawnData, EntityId spawnId);
