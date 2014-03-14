@@ -4,3 +4,4 @@ Useful Applications to install
 I recommend installing this application to help with looking at diffs, and merging files.
 Link: http://danlimerick.wordpress.com/2011/06/19/git-for-window-tip-use-p4merge-as-mergetool/
 
+Link to installation notes: http://phatness.com/2012/01/merging-with-git-and-p4merge/

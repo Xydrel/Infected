@@ -1,0 +1,39 @@
+[core]
+	symlinks = false
+	autocrlf = true
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = true
+[pack]
+	packSizeLimit = 2g
+[help]
+	format = html
+[http]
+	sslCAinfo = /bin/curl-ca-bundle.crt
+[sendemail]
+	smtpserver = /bin/msmtp.exe
+
+[diff]
+    tool = p4merge
+[difftool "p4merge"]
+    cmd = "p4merge.exe $LOCAL $REMOTE"
+	
+[rebase]
+	autosquash = true
+	
+[merge]
+	keepBackup = false
+	tool = custom
+	
+[mergetool "P4Merge"]
+	cmd = \"c:/Program Files/Perforce/p4merge.exe\" "$BASE" "$LOCAL" "$REMOTE" "$MERGED"
+	keepTemporaries = false
+	trustExitCode = false
+	keepBackup = false
+	
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
