@@ -1608,10 +1608,7 @@ private:
 
 	const char* GetFootstepEffectName() const;
 
-	float m_lastLedgeTime;
-
 	EntityId	m_netCloseCombatSnapTargetId;
-
 	EntityId	m_stealthKilledById;
 	EntityId	m_carryObjId;
 	bool		m_pickingUpCarryObject;
@@ -1621,6 +1618,7 @@ private:
 	void SetReactionOverlay(EReactionOverlay overlay);
 
 	EReactionOverlay m_reactionOverlay;
+	float			 m_lastLedgeTime;
 	float			 m_reactionTimer;
 	float			 m_reactionFactor;
 	int				 m_reactionOverlayAnimIDs[EReaction_Total];
@@ -1686,6 +1684,7 @@ public:
 
 	int m_teamWhenKilled;
 
+	bool m_bIsPlayerInfected;
 	bool m_fpCompleteBodyVisible;
 	bool m_deferredKnockDownPending : 1;
 	bool m_registeredOnHUD : 1;
