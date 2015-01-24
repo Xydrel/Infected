@@ -3586,7 +3586,6 @@
     <ClInclude Include="resource.h" />
     <ClInclude Include="GameStateRecorder.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="StdAfx.h" />
     <ClInclude Include="MPPathFollowingManager.h">
       <Filter>VTOLVehicleManager</Filter>
     </ClInclude>
