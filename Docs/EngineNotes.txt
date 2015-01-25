@@ -1,6 +1,0 @@
-[Logging to the console]
-- Notest about logging to the console
-You are able to log information to the dev console vis CryLog() method
-Syntax: CryLog("some dev logging information here.") 
-	- The log type has to be Type<string>
-

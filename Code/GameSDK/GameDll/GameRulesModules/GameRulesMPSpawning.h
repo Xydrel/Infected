@@ -38,7 +38,7 @@ History:
 #include "GameRules.h"	// only needed for CryLog below
 
 #define ETSTList(f) \
-	f(eTST_None)					/*0*/ \
+	f(eTST_None)						/*0*/ \
 	f(eTST_Standard)				/*1*/ \
 	f(eTST_RoundSwap)				/*2*/ \
 	f(eTST_Initial)					/*3*/ \
@@ -48,14 +48,14 @@ AUTOENUM_BUILDENUMWITHTYPE_WITHNUM(ETeamSpawnsType, ETSTList, eTST_NUM);
 
 //These are used for the RS spawning, but are here for convenience for debugging the spawn scoring
 const float fScoreForSpawnerBeingVisible = 800.0f;
-const float fScoreForPOICollision		 = 2000.0f;
+const float fScoreForPOICollision = 2000.0f;
 
 class CGameRulesMPSpawningBase :	public CGameRulesSpawningBase,
-									public IGameRulesRevivedListener,
-									public IGameRulesRoundsListener,
-									public IGameRulesKillListener
+																	public IGameRulesRevivedListener,
+																	public IGameRulesRoundsListener,
+																	public IGameRulesKillListener
 #if MONITOR_BAD_SPAWNS
-									,	public IInputEventListener
+																	,	public IInputEventListener
 #endif
 {
 private:
@@ -87,14 +87,14 @@ protected:
 	{
 		SSpawnHistory(EntityId _spawnId, float _fGameTime, int _nTeamSpawned)
 		{
-			spawnId			= _spawnId;
-			fGameTime		= _fGameTime;
+			spawnId				= _spawnId;
+			fGameTime			= _fGameTime;
 			nTeamSpawned	= _nTeamSpawned;
 		}
 
 		EntityId	spawnId;
-		float		fGameTime;
-		int			nTeamSpawned;
+		float			fGameTime;
+		int				nTeamSpawned;
 	};
 
 	std::vector<SSpawnHistory> m_spawnHistory;
@@ -106,18 +106,18 @@ protected:
 	{
 		SScoringResults(float _scoreFromEnemies, float _scoreFromFriendlies, float _scoreFromIdeal, bool	_inLOS,	bool	_inExemptArea)
 		{
-			scoreFromEnemies	= _scoreFromEnemies;
+			scoreFromEnemies		= _scoreFromEnemies;
 			scoreFromFriendlies = _scoreFromFriendlies;
-			scoreFromIdeal		= _scoreFromIdeal;
-			inLOS				= _inLOS;
-			inExemptArea		= _inExemptArea;
+			scoreFromIdeal			= _scoreFromIdeal;
+			inLOS								= _inLOS;
+			inExemptArea				= _inExemptArea;
 		}
 
 		SScoringResults(float _scoreFromEnemies, bool _inLOS, bool _inExemptArea)
 		{
-			scoreFromEnemies	= _scoreFromEnemies;
-			inLOS				= _inLOS;
-			inExemptArea		= _inExemptArea;
+			scoreFromEnemies		= _scoreFromEnemies;
+			inLOS								= _inLOS;
+			inExemptArea				= _inExemptArea;
 		}
 
 		float scoreFromEnemies;
@@ -130,7 +130,7 @@ protected:
 	struct SCachedSpawnData
 	{
 		EntityId	selectedSpawn;
-		int			iSelectedSpawnIndex;
+		int				iSelectedSpawnIndex;
 		std::vector<SScoringResults> scoringResults;
 		uint32		visibleState[MAX_PLAYER_LIMIT];
 
@@ -147,17 +147,17 @@ protected:
 
 	enum EPointOfInterestFlags
 	{
-		EPOIFL_NONE					= 0,
-		EPOIFL_ENABLED				= (1<<0),
+		EPOIFL_NONE							= 0,
+		EPOIFL_ENABLED					= (1<<0),
 		EPOIFL_USESTATICPOS			= (1<<1)
 	};
 
 	struct SPointOfInterest
 	{
 		EntityId	m_entityId;
-		Vec3		m_posn;
+		Vec3			m_posn;
 		uint32		m_flags;		// maybe be state instead
-		uint8		m_state;
+		uint8			m_state;
 
 		union UStateData
 		{

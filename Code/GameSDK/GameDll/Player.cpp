@@ -2602,7 +2602,7 @@ void CPlayer::OnStanceChanged(EStance newStance, EStance oldStance)
 
 	CActor::OnStanceChanged(newStance, oldStance);
 
-	CRY_ASSERT_TRACE(newStance == m_stance, ("Expected 'newStance' (%d) to be equal to 'm_stance' (%d)", newStance, m_stance.Value()));
+    CRY_ASSERT_TRACE(newStance == m_stance, ("Expected 'newStance' (%d) to be equal to 'm_stance' (%d)", newStance, m_stance.Value()));
 	CRY_ASSERT_TRACE(newStance != oldStance, ("Expected 'newStance' (%d) to be different to 'oldStance' (%d)", newStance, oldStance));
 
 	if (IsClient())
@@ -3912,7 +3912,7 @@ void CPlayer::PostPhysicalize()
 
 	IPhysicalEntity * pPhysicalEnt = pSkeletonPose->GetCharacterPhysics();
   if (!pPhysicalEnt)
-	return;
+    return;
 
 	pPhysicalEnt->SetParams(&sim);
 	pPhysicalEnt->SetParams(&flags);	
@@ -4169,8 +4169,8 @@ void CPlayer::CameraShake(float angle,float shift,float duration,float frequency
   
   if (IVehicle* pVehicle = GetLinkedVehicle())
   {
-	if (IVehicleSeat* pSeat = pVehicle->GetSeatForPassenger(GetEntityId()))    
-	  pSeat->OnCameraShake(angleAmount, shiftAmount, pos, source);    
+    if (IVehicleSeat* pSeat = pVehicle->GetSeatForPassenger(GetEntityId()))    
+      pSeat->OnCameraShake(angleAmount, shiftAmount, pos, source);    
   }
 
 	Ang3 shakeAngle(\
@@ -4644,9 +4644,9 @@ bool CPlayer::NetSerialize( TSerialize ser, EEntityAspects aspect, uint8 profile
 		case ASPECT_SPECTATOR:
 			NetSerialize_Spectator(ser, reading);
 			break;
-		case ASPECT_LEDGEGRAB_CLIENT:
-			NetSerialize_LedgeGrab(ser, reading);
-			break;
+ 		case ASPECT_LEDGEGRAB_CLIENT:
+ 			NetSerialize_LedgeGrab(ser, reading);
+ 			break;
 		case ASPECT_JUMPING_CLIENT:
 			NetSerialize_Jumping(ser, reading);
 			break;
@@ -5902,7 +5902,7 @@ void CPlayer::ExecuteFootStep(ICharacterInstance* pCharacter, const float frameT
 
 				if(!gEnv->bMultiplayer && IsClient() && IsSprinting())
 				{
-					float radius = 15.0f + relativeSpeed;
+ 					float radius = 15.0f + relativeSpeed;
 					TargetTrackHelpers::SStimulusEvent stimulusEventInfo;
 					stimulusEventInfo.vPos = GetEntity()->GetWorldPos();
 					stimulusEventInfo.eStimulusType = TargetTrackHelpers::eEST_Sound;
@@ -6610,9 +6610,9 @@ bool CPlayer::PickUpItem(EntityId itemId, bool sound, bool select)
 
 	CStatsRecordingMgr::TryTrackEvent(this, eGSE_PickupItem, pPickupEntity ? pPickupEntity->GetClass()->GetName() : "???");
 
-	SHUDEvent hudevent(eHUDEvent_RemoveEntity); // We want to remove a scanned item as soon as it's picked up
-	hudevent.AddData(SHUDEventData((int)itemId));
-	CHUDEventDispatcher::CallEvent(hudevent);
+    SHUDEvent hudevent(eHUDEvent_RemoveEntity); // We want to remove a scanned item as soon as it's picked up
+    hudevent.AddData(SHUDEventData((int)itemId));
+    CHUDEventDispatcher::CallEvent(hudevent);
 
 	return bOK;
 }
@@ -7587,15 +7587,15 @@ void CPlayer::OnTeleported()
 bool CPlayer::CanSwitchItems() const
 {
 	if (!m_health.IsDead() && (m_stats.animationControlledID != 0)
-		|| (m_stats.mountedWeaponID != 0) 
-		|| IsSwimming() 
-		|| IsSliding() 
-		|| IsInPickAndThrowMode() 
-		|| IsOnLedge()
-		|| IsOnLadder()
-		|| (m_stats.bAttemptingStealthKill || m_stats.bStealthKilled || m_stats.bStealthKilling)
-		|| (m_stats.cinematicFlags & SPlayerStats::eCinematicFlag_HolsterWeapon)
-		)
+				|| (m_stats.mountedWeaponID != 0) 
+				|| IsSwimming() 
+				|| IsSliding() 
+				|| IsInPickAndThrowMode() 
+				|| IsOnLedge()
+				|| IsOnLadder()
+				|| (m_stats.bAttemptingStealthKill || m_stats.bStealthKilled || m_stats.bStealthKilling)
+				|| (m_stats.cinematicFlags & SPlayerStats::eCinematicFlag_HolsterWeapon)
+				)
 	{
 		return false;
 	}
@@ -7746,7 +7746,7 @@ int CPlayer::GetXPBonusModifiedXP(int baseXP)
 {
 	const f32 fModifier = (((f32)m_xpBonusMultiplier)/100.f)+0.00001f; //Precision loss - slightly over not problematic, slightly under is
 	const int iModified = (int)(((f32)baseXP * fModifier) + 0.5f);   //+0.5f means that we get rounding up if >= x.5f and rounding down if <x.5f
-	return iModified;
+ 	return iModified;
 }
 
 #undef raycast
@@ -8070,9 +8070,6 @@ void CPlayer::StopTinnitus()
 void CPlayer::SetUpInventorySlotsAndCategories()
 {
 	//Use same config for now
-	/// TODO: Look in more detail at what's going on here. There is interaction with the player inventory
-	/// jhoward(20140313)
-	//////////////////////////////////////////////////////////////////////////
 
 	IInventory* pInventory = GetInventory();
 	if (gEnv->bMultiplayer)
@@ -8351,7 +8348,7 @@ void CPlayer::HasClimbedLedge(const uint16 ledgeID, bool comingFromOnGround, boo
 	}
 	else
 	{
-		CryLog("Not net-serializing a ledge grab as the id %d is not valid", ledgeID);
+		CryLog("Not net-serialising a ledge grab as the id %d is not valid", ledgeID);
 	}
 }
 
@@ -9518,7 +9515,7 @@ void CPlayer::DisableStumbling()
 
 // This is a candidate for being server only - whenever a client calls it
 // its just going to end up out of sync with the server, and the state 
-// is server controlled with respect to its serialization
+// is server controlled with respect to its serialisation
 void CPlayer::SetSpectatorState( uint8 state )
 {
 	if (gEnv->bServer && IsClient())
@@ -9961,24 +9958,6 @@ namespace CPlayerGetSpawnInfo
 			ser.Value("bShowIntro", bShowIntro, 'bool');
 		}
 	};
-}
-
-bool CPlayer::IsPlayerInfected() 
-{
-	// To later implement the flag of being an infected player jhoward
-	// if the player was randomly selected to be the first infected player 
-		// || The player was infected be another player and has completed the infection transition
-		// m_bIsPlayerInfected = true;
-	    //if (m_bIsPlayerInfected == true)
-		//{
-			//CryLog("The player has started the match as the infected player");
-		//}
-	// else 
-		// return false
-	m_bIsPlayerInfected = false;
-
-	// temp return value before implementation of infection tech
-	return m_bIsPlayerInfected;
 }
 
 //------------------------------------------------------------------------

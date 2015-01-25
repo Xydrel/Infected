@@ -1,7 +1,0 @@
-[jhoward]
-1. Looks like spawning happens in GameRules.cpp | at least it's handles at some point there
-2. ActorManager.cpp | looks like another place where spawning the player is controlled
-
-[I believe the below files are where the main handling of MP spawning is implemented]
-3. Multiplayer/GameRules dir. GameRulesMPSimpleSpawning.h/.cpp 
-4. GameRulesMPSpawning.cpp/.h for more spawning control
