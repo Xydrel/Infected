@@ -797,46 +797,46 @@ protected:
 
 	virtual bool IsCurrentFireModeFromAccessory() const;
 
-	EntityEffects::CHeatController		m_heatController;
+	EntityEffects::CHeatController	m_heatController;
 
-	CScopeReticule				m_scopeReticule;
+	CScopeReticule		m_scopeReticule;
 
-	CFireMode					*m_fm;
+	CFireMode*			m_fm;
 
-	CMelee*					m_melee;
+	CMelee*				m_melee;
 
-	IZoomMode					*m_zm;
-	int							m_zmId;
-	int							m_primaryZmId;
-	int							m_secondaryZmId;
+	IZoomMode*			m_zm;
+	int					m_zmId;
+	int					m_primaryZmId;
+	int					m_secondaryZmId;
 
 	TFireModeIdMap		m_fmIds;
 	TFireModeVector		m_firemodes;
 
 	TZoomModeIdMap		m_zmIds;
-	TZoomModeNameMap  m_zmNames;
+	TZoomModeNameMap	m_zmNames;
 	TZoomModeVector		m_zoommodes;
 	
 	DynArray<string>	m_compatibleAccessories;
 
-	TAmmoVector				m_ammo;
-	TAmmoVector				m_bonusammo;
+	TAmmoVector			m_ammo;
+	TAmmoVector			m_bonusammo;
 
 #if defined(ANTI_CHEAT)
-	uint32					m_lastShotId;
-	uint16					m_roundsFired;
+	uint32				m_lastShotId;
+	uint16				m_roundsFired;
 #endif
 
-	bool							m_fire_alternation;
+	bool				m_fire_alternation;
 
-	bool							m_restartZoom; //this is a serialization helper
-	int								m_restartZoomStep;
+	bool				m_restartZoom; //this is a serialization helper
+	int					m_restartZoomStep;
 
-	CWeaponStats*			m_pWeaponStats;
+	CWeaponStats*		m_pWeaponStats;
 
 	TWeaponEventListeners	m_listeners;
 
-	IWeaponFiringLocator	*m_pFiringLocator;
+	IWeaponFiringLocator*	m_pFiringLocator;
 
 	_smart_ptr<CWeaponSharedParams> m_weaponsharedparams;
 
@@ -845,7 +845,7 @@ protected:
 	static float	s_focusValue;
 	static TAmmoVector s_tmpCollectedAmmo;
 
-  Vec3	m_destination;
+	Vec3	m_destination;
 	Vec3	m_aimPosition;
 	Vec3	m_targetPosition;
 
@@ -855,12 +855,12 @@ protected:
 	bool	m_switchingFireMode;
 	bool	m_doingMagazineSwap;
 
-	float m_reloadButtonTimeStamp;
+	float	m_reloadButtonTimeStamp;
 
-	float m_nextShotTime;
+	float	m_nextShotTime;
 
-	float m_zoomTimeMultiplier;
-	float m_selectSpeedMultiplier;
+	float	m_zoomTimeMultiplier;
+	float	m_selectSpeedMultiplier;
 
 	int		m_lastRecoilUpdate;
 
@@ -872,7 +872,7 @@ protected:
 
 	bool	m_isClientOwnerOverride;
 	bool	m_minDropAmmoAvailable;
-	bool  m_isRegisteredAmmoWithInventory;
+	bool	m_isRegisteredAmmoWithInventory;
 
 	float	m_snapToTargetTimer;
 
@@ -882,9 +882,9 @@ protected:
 	bool	m_addedAmmoCapacity;
 	bool	m_extendedClipAdded;
 
-	bool    m_DropAllowedFlag;
-	bool		m_bIsHighlighted;
-	bool		m_bReloadWhenSelected;
+	bool	m_DropAllowedFlag;
+	bool	m_bIsHighlighted;
+	bool	m_bReloadWhenSelected;
 
 	// network
 	int		m_reloadState;
@@ -893,23 +893,23 @@ protected:
 	int		m_shootCounter;	// num bullets to shoot
 	int		m_lastRecvInventoryAmmo;
 	float	m_netNextShot;
-	float m_weaponNextShotTimer;
+	float	m_weaponNextShotTimer;
 	bool	m_isFiring;
 	bool	m_isFiringStarted;
 	uint8	m_fireCounter;	// total that have been fired
-	uint8 m_expended_ammo;
-	uint8 m_meleeCounter;
-	int8  m_attackIndex; 
+	uint8	m_expended_ammo;
+	uint8	m_meleeCounter;
+	int8	m_attackIndex; 
 	bool	m_doMelee;
 	bool	m_netInitialised;
 	bool	m_isDeselecting;
 
-	static const uint8 kMeleeCounterMax = 4;
+	static const uint8	kMeleeCounterMax = 4;
 
-	float					m_currentCrosshairVisibility;
-	EWeaponCrosshair		m_crosshairMode;
+	float				m_currentCrosshairVisibility;
+	EWeaponCrosshair	m_crosshairMode;
 
-	class IAction *m_deselectAction;
+	class IAction*		m_deselectAction;
 	_smart_ptr<class IAction> m_enterModifyAction;
 	
 private:
@@ -963,7 +963,7 @@ private:
 #ifdef SERVER_CHECKS
 	float m_fSampleStartTime;
 	float m_fLastSampleTakenTime;
-	float	m_fSampleNumShots;
+	float m_fSampleNumShots;
 	
 	void StartVerificationSample(float fCurrentTime);
 	bool ShouldEndVerificationSample(float fCurrentTime, uint32 shotId);
